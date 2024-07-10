@@ -2995,7 +2995,7 @@ i.fa.fa-quote-right.quote-right-circle {
     background-position: left bottom;
 }
 .btn-reflect-text {
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     line-height: 38px;
     display: block;
@@ -3010,6 +3010,171 @@ i.fa.fa-quote-right.quote-right-circle {
 /* end code for career workplace team */
 
 /* start code for career software experience */
+.career-data-polygon
+{
+    height: 750px;
+}
+.odoo-container-main
+{
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 80px 0px 0px 20px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.odoo-diag-container {      /* Odoo diagram container */
+    position: relative;
+    width: 33%;
+    height: 420px;
+    background-color:#f5a623;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+.quadrant-swap {
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.quadrant-swap-text {
+    background-color:#001746;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    border-radius: 10px;
+    text-align: left;
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    font-weight: 600;
+}
+.quadrant-swap-text-min {
+    background-color:#001746;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: left;
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+.erp-technology {
+    top: 0;
+    left: -100px;
+}
+.erp-data {
+    top: 0;
+    right: -100px;
+}
+.erp-process {
+    bottom: 0;
+    right: -100px;
+}
+.erp-people {
+    bottom: 0;
+    left: -100px;
+}
+.erp-data-center {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    background-color: #f94a24;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.erp-middle-break {
+    position: absolute;
+    width: 8px;
+    height: 100%;
+    background-color: #f5a623
+}
+.erp-middle-hr-break {
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    background-color:#f5a623
+}
+.erp-span-technology {
+    position: absolute;
+    left: 125px;
+    top: 155px;
+    color: black;
+    padding: 0px;
+    font-weight: 600;
+}
+.erp-span-data {
+    position: absolute;
+    left: 258px;
+    top: 157px;
+    color: black;
+    padding: 0px;
+    font-weight: 600;
+}
+.erp-span-process {
+    position: absolute;
+    left: 252px;
+    top: 242px;
+    color: black;
+    padding: 0px;
+    font-weight: 600;
+}
+.erp-span-people {
+    position: absolute;
+    left: 150px;
+    top: 240px;
+    color: black;
+    padding: 0px;
+    font-weight: 600;
+}
+.odoo-diag-container-data
+{
+    width: 58%;
+    padding: 15px 0px 0px 170px;
+}
+.same-i-extra-erp
+{
+    color: #f94a24;
+    font-size: 16px
+}
+.erp-span-in
+{
+    color: black;
+    font-size: 20px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'poppins', sans-serif;
+    padding: 0px 0px 0px 15px;
+    line-height: 53px;
+}
+.erp-list-in
+{
+    display: grid;
+}
+.h2-text-erp-case
+{
+    color: rgb(5, 12, 59);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}   /*end of odoo erp section*/
+/* end code for career workplace team */
+
+
+/* start code for career software experience */
+
 .career-software-experience {
     height: 1500px;
     background-color: #10417a !important;
@@ -3188,7 +3353,6 @@ i.fa.fa-quote-right.quote-right-circle {
     display: inline-block;
     width: 100%;
     height: 1230px;
-    /* background-color: #000000; */
     background-image: url(https://alukas.presslayouts.com/wp-content/uploads/2023/09/Footer-bg.png);
     background-repeat: repeat;
     background-attachment: fixed;
@@ -3498,7 +3662,7 @@ i.fa.fa-quote-right.quote-right-circle {
 }
 .odoo-cloud-middle
 {
-    height: 1400px;
+    height: 790px;
     width: 100%;
 }
 .odoo-cloud-middle-in
@@ -3541,165 +3705,97 @@ i.fa.fa-quote-right.quote-right-circle {
     width: 100%;
     height: 320px;
     padding: 25px;
-    border-radius: 35px;
+    border-radius: 0px;
+    box-shadow: 2px 2px 5px 0 #ddd;
+    margin-top: 25px;
 }
-.odoo-container-main
+.odoo-images-work {
+    width: 50%;
+    overflow: hidden; /* Ensure the image container doesn't overflow */
+}
+.odoo-workplace-work-width
 {
-    display: flex;
-    justify-content: left;
-    margin: 0;
-    padding: 80px 0px 0px 20px;
     width: 100%;
-    background-color: #ffffff;
-}
-.odoo-diag-container {      /* Odoo diagram container */
-    position: relative;
-    width: 33%;
-    height: 420px;
-    background-color:#f5a623;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 120px;
-}
-.quadrant-swap {
-    position: absolute;
-    width: 60%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-}
-.quadrant-swap-text {
-    background-color:#001746;
-    color: rgb(255, 255, 255);
-    padding: 0px;
-    border-radius: 10px;
-    text-align: left;
-    width: 100%;
-    height: 130px;
-    padding: 10px;
-    font-weight: 600;
-}
-.quadrant-swap-text-min {
-    background-color:#001746;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    text-align: left;
-    width: 100%;
-    height: 130px;
-    padding: 10px;
-    font-weight: 600;
-    padding-left: 40px;
-}
-.erp-technology {
-    top: 0;
-    left: -100px;
-}
-.erp-data {
-    top: 0;
-    right: -100px;
-}
-.erp-process {
-    bottom: 0;
-    right: -100px;
-}
-.erp-people {
-    bottom: 0;
-    left: -100px;
-}
-.erp-data-center {
-    position: absolute;
-    width: 240px;
-    height: 240px;
-    background-color: #f94a24;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.erp-middle-break {
-    position: absolute;
-    width: 8px;
     height: 100%;
-    background-color: #f5a623
+    max-height: 450px;
+    object-fit: cover;
 }
-.erp-middle-hr-break {
-    position: absolute;
-    width: 100%;
-    height: 8px;
-    background-color:#f5a623
-}
-.erp-span-technology {
-    position: absolute;
-    left: 125px;
-    top: 155px;
-    color: black;
-    padding: 0px;
-    font-weight: 600;
-}
-.erp-span-data {
-    position: absolute;
-    left: 258px;
-    top: 157px;
-    color: black;
-    padding: 0px;
-    font-weight: 600;
-}
-.erp-span-process {
-    position: absolute;
-    left: 252px;
-    top: 242px;
-    color: black;
-    padding: 0px;
-    font-weight: 600;
-}
-.erp-span-people {
-    position: absolute;
-    left: 150px;
-    top: 240px;
-    color: black;
-    padding: 0px;
-    font-weight: 600;
-}
-.odoo-diag-container-data
-{
-    width: 58%;
-    padding: 15px 0px 0px 170px;
-}
-.same-i-extra-erp
-{
-    color: #f94a24;
-    font-size: 16px
-}
-.erp-span-in
-{
-    color: black;
-    font-size: 20px;
-    font-size: 14px;
-    font-weight: normal;
-    font-family: 'poppins', sans-serif;
-    padding: 0px 0px 0px 15px;
-    line-height: 53px;
-}
-.erp-list-in
-{
-    display: grid;
-}
-.h2-text-erp-case
-{
-    color: rgb(5, 12, 59);
-    font-size: 30px;
-    font-weight: bold;
-    padding: 80px 0px 0px 0px;
-    text-align: center;
-    text-transform: capitalize;
-    font-family: 'Montserrat', sans-serif;
-}   /*end of odoo erp section*/
+/* end a section */
 
+/* start a new section odoo function container */
+.odoo-function-container
+{
+    height: 1250px;
+}
+.odoo-tab
+{
+    height: 225px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    padding: 50px 70px 0px 70px;
+}
+.odoo-tab button {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 10px;
+    transition: 0.3s;
+    width: 16.66%;
+    margin: 15px;
+    border-radius: 2px;
+}
+.odoo-tab button.active  {
+    background-color:#328cd9;
+    border-radius: 0px;
+    color: white;
+}
+.odoo-tab button:hover {
+    border-radius: 0px;
+}
+.same-odoo-img-about{
+    height: 65px;
+    padding-bottom: 8px;
+}
+.h1-odoo-tab-text
+{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    word-spacing: 3px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.odoo-slide-crm
+{
+    width: 100%;
+    flex-shrink: 0;
+    display: flex;
+    position: relative;
+    background-color: #092f4f !important;
+}
+.odoo-slide-mark {
+    width: 75%;
+    padding: 20px 20px 10px 20px;
+}
+.tabcontent {
+    padding: 80px 80px 0px 80px;
+}
+.h2-odoo-work-technology-in
+{
+    font-size: 19pt;
+    line-height: 25pt;
+    font-weight: bold;
+    padding: 0px 0px 0px 20px;
+    color: rgb(222, 235, 52);
+    word-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* end a section odoo function  */
+
+
+/* start a new section  */
 .odoo-erp-function
 {
     height: 1000px;
@@ -3764,9 +3860,12 @@ i.fa.fa-quote-right.quote-right-circle {
     padding: 0px 0px 30px 92px;
 }
 
-                        /* a code for tools link  */
+/* a code for tools link  */
 
-
+.erp-section-container
+{
+    height: 1000px;
+}
 .erp-main-tools {
     height: 950px;
     padding: 20px 40px 0px 40px;
