@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon Grid</title>
+    <style>
+        .erp-main-value-list {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+            margin: 0;
+        }
+
+        .erp-grider-port {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .application-erp-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .erp-count-icon {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .value-accounting {
+            background: #f5a623;
+            position: relative;
+        }
+
+        .value-accounting:before, .value-accounting:after {
+            content: '';
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .value-accounting:before {
+            background: #ffecb3;
+            width: 20px;
+            height: 20px;
+            top: 10px;
+            left: 10px;
+        }
+
+        .value-accounting:after {
+            background: #d35400;
+            width: 15px;
+            height: 15px;
+            top: 20px;
+            left: 20px;
+        }
+
+        .value-knowledge {
+            background: #8e44ad;
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+
+        .value-sign {
+            background: #16a085;
+            clip-path: polygon(0 0, 100% 0, 50% 100%);
+        }
+
+        .value-crm {
+            background: #3498db;
+            clip-path: polygon(50% 0%, 100% 100%, 50% 50%, 0% 100%);
+        }
+
+        .value-studio {
+            background: #c0392b;
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        }
+
+        .value-subscriptions {
+            background: #27ae60;
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        }
+
+        .value-rental {
+            background: #f39c12;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0% 50%);
+        }
+
+        .value-pos {
+            background: #d35400;
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        }
+
+        .value-discuss {
+            background: #e74c3c;
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        }
+
+        .value-documents {
+            background: #2980b9;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+
+        .value-project {
+            background: #8e44ad;
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+
+        .value-timesheets {
+            background: #16a085;
+            clip-path: circle(50% at 50% 50%);
+        }
+
+        .value-field-service {
+            background: #3498db;
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        }
+
+        .value-planning {
+            background: #2ecc71;
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        }
+
+        .value-helpdesk {
+            background: #e67e22;
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        }
+
+        .value-website {
+            background: #9b59b6;
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+
+        .value-social-marketing {
+            background: #e74c3c;
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+
+        .value-email-marketing {
+            background: #f39c12;
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+
+        .value-purchase {
+            background: #9b59b6;
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+
+        .value-inventory {
+            background: #e67e22;
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+
+        .value-manufacturing {
+            background: #2ecc71;
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+
+        .value-sales {
+            background: #3498db;
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+
+        .value-hr {
+            background: #e74c3c;
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+
+        .value-dashboard {
+            background: #1abc9c;
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+    </style>
+</head>
+<body>
+
+<section class="erp-main-value-list">
+    <div class="erp-grider-port">
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-accounting"></div>
+            <p>Accounting</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-knowledge"></div>
+            <p>Knowledge</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-sign"></div>
+            <p>Sign</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-crm"></div>
+            <p>CRM</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-studio"></div>
+            <p>Studio</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-subscriptions"></div>
+            <p>Subscriptions</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-rental"></div>
+            <p>Rental</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-pos"></div>
+            <p>Point of Sale</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-discuss"></div>
+            <p>Discuss</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-documents"></div>
+            <p>Documents</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-project"></div>
+            <p>Project</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-timesheets"></div>
+            <p>Timesheets</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-field-service"></div>
+            <p>Field Service</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-planning"></div>
+            <p>Planning</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-helpdesk"></div>
+            <p>Helpdesk</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-website"></div>
+            <p>Website</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-social-marketing"></div>
+            <p>Social Marketing</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-email-marketing"></div>
+            <p>Email Marketing</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-purchase"></div>
+            <p>Purchase</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-inventory"></div>
+            <p>Inventory</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-manufacturing"></div>
+            <p>Manufacturing</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-sales"></div>
+            <p>Sales</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-hr"></div>
+            <p>HR</p>
+        </div>
+        <div class="application-erp-list">
+            <div class="erp-count-icon value-dashboard"></div>
+            <p>Dashboard</p>
+        </div>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #333;  /* Dark background color */
+  color: #fff;  /* Light text color */
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 16px;
+  color: #bbb;  /* Slightly lighter text for better readability */
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #fff;  /* Highlight links on hover */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section form {
+  display: flex;
+}
+
+.footer-section form input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  margin-right: -5px; /* To fix the small gap between input and button */
+}
+
+.footer-section form button {
+  padding: 10px;
+  border: none;
+  background-color: #f60;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.footer-section form button:hover {
+  background-color: #e55;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-section {
+      max-width: 500px;
+      text-align: center;
+  }
+}

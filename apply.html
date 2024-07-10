@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #f1f1f1;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .apply_box {
+            max-width: 650px;
+            padding: 20px;
+            background: white;
+            margin: 0 auto;
+            margin-top: 50px;
+            box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+            border-radius: 10px;
+        }
+        h1 a {
+            text-decoration: none;
+            color: #f93939;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        h1 a:hover {
+            color: #110c5a;
+            transition: 0.9s;
+        }
+        .title_small {
+            font-size: 17px;
+        }
+        .form_container {
+            margin-top: 25px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .form_control {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-size: 15px;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        input, select, textarea {
+            padding: 6px 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 15px;
+            width: 95%;
+        }
+        input:focus {
+            outline-color: blue;
+        }
+        input.file:focus {
+            background: blue;
+            color: #fff;
+        }
+        #result {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 10px 5px;
+        }
+        #result:hover {
+            /* background: #f7f6f6; */
+            /* border: 1px solid #ccc; */
+            border-radius: 5px;
+            width: 50%;
+        }
+        .thumbnail {
+            width: 100px;
+        }
+        .button_container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        button {
+            background: #f94a24;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            font-size: 15px;
+            transition: 1s ease-in;
+            width: 20%;
+        }
+        button:hover {
+            background: #092f4f;
+            color: #fff;
+            transition: 1s ease-out;
+        }
+        .textarea_control {
+            grid-column: 1 / span 2;
+        }
+        .textarea_control textarea {
+            width: 100%;
+        }
+        @media (max-width: 460px) {
+            .textarea_control {
+                grid-column: 1 / span 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1><a href="#first_name">Leal Software Solution <span class="title_small">(Application)</span></a></h1>
+             <form action="https://formsubmit.co/e5cc5f7becc8fe1ead61e9e9f5afc74a" class="form" method="POST">
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="first_name">Your Name <span style="color: rgb(0, 0, 0);">*</span></label>
+                        <input id="first_name" name="first_name" placeholder="" autocomplete="off" required>
+                        <input type="hidden" name="_next" value="/freedom4/login2.html" />
+                    </div>
+                    <div class="form_control">
+                        <label for="email">Your Email  <span style="color: rgb(0, 0, 0);">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="" autocomplete="off" required>
+                    </div>
+                    <div class="form_control">
+                        <label for="phone">Mobile No  <span style="color: rgb(0, 0, 0);">*</span></label>
+                        <input type="text" id="phone" name="phone" placeholder="" autocomplete="off" required>
+                    </div>
+                    <div class="form_control">
+                        <label for="link">Your Linkdin</label>
+                        <input type="link" id="link" name="link" placeholder="" required>
+                    </div>
+                    <div class="form_control">
+                        <label for="job_rol">Your Job Role  <span style="color: rgb(0, 0, 0);">*</span></label>
+                        <select name="job_rol" id="job_rol">
+                            <option value="software_developer">Software Developer</option>
+                            <option value="web_developer">Web Developer</option>
+                            <option value="android_developer">Android Developer</option>
+                            <option value="java_developer">Java Developer</option>
+                            <option value="dot_net_developer">DOT NET Developer</option>
+                            <option value="ui_ux">UI/UX Developer</option>
+                            <option value="php_developer">PHP Developer</option>
+
+                        </select>
+                    </div>
+                    <div class="form_control">
+                        <label for="experience">Your Experience  <span style="color: rgb(0, 0, 0);">*</span></label>
+                        <input type="experience" id="experience" name="experience" placeholder="" required>
+                    </div>
+                    <div class="form_control">
+                        <label for="files">Upload CV  <span style="color: rgb(0, 0, 0);">*</span></label>
+                        <input id="files" type="file" name="file" multiple="multiple" accept="image/jpeg, image/png, image/jpg, image/svg, application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+                        <output id="result"></output>
+                    </div>                    
+                    <div class="textarea_control">
+                        <label for="message">Message</label>
+                        <textarea type="text" id="message" name="message" placeholder="" autocomplete="off" rows="4" cols="50"></textarea>
+                    </div>
+                </div>
+                <div class="button_container">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        document.querySelector("#files").addEventListener("change", (e) => {
+            if (window.File && window.FileReader && window.FileList && window.Blob) {
+                const files = e.target.files;
+                const output = document.querySelector("#result");
+                output.innerHTML = "";
+                for (let i = 0; i < files.length; i++) {
+                    if (!files[i].type.match("image")) continue;
+                    const picReader = new FileReader();
+                    picReader.addEventListener("load", function (event) {
+                        const picFile = event.target;
+                        const div = document.createElement("div");
+                        div.innerHTML = `<img class="thumbnail" src="${picFile.result}" title="${picFile.name}"/>`;
+                        output.appendChild(div);
+                    });
+                    picReader.readAsDataURL(files[i]);
+                }
+            } else {
+                alert("is there not using javascript API's");
+            }
+        });
+    </script>
+</body>
+</html>

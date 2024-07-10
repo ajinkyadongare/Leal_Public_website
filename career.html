@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leal Software Solution</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+        <!-- nav list section -->
+        <section class="section-navbar">
+            <div class="div-nav">
+                <div class="nav-logo-img">
+                    <a href="index.html">
+                        <img src="Assets/Images/leal-software-black-white-logo.jpg" alt="Button Image" class="width-logo">
+                    </a>
+                    <!-- <h1 class="width-logo">Logo</h1> -->
+                </div>
+
+                <div class="nav-menu-list">
+                    <div class="menu-list">
+                        <nav class="nav-list-ul">
+                            <ul class="nav-list " >
+                                    <!-- <li><a href="index.html">HOME</a></li> -->
+                                    <li><a href="services.html">SERVICES</a></li>
+                                    <li class="has-submenu">
+                                        <span class="submenu-span-in">PRODUCT</span>
+                                        <ul class="submenu">
+                                          <li><a href="odoo_cloud.html">Oddo/Cloud ERP</a></li>
+                                          <li><a href="task_trak.html">TaskTrak Hub</a></li>
+                                          <li><a href="hvac_task.html">HVAC Task Manager</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="research.html">RESERACH</a></li>
+                                    <li><a href="about.html">ABOUT US</a></li>
+                                    <li><a href="career.html">CAREER</a></li>
+                                    <li><a href="blogs.html">BLOGS</a></li>
+                                    <li><a href="contact.html">CONTACT US</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="btn-menu-list">
+                    <button class="MenuButton">&#9776;</button>
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+
+
+            <!-- start section -->
+            <section class="career-header">
+                <div class="career-header-container">
+                    <div class="career-header-container-one">
+
+                        <h2 class="h4-career-header-txt">CAREER</h2>
+                        <h4 class="h4-career-header-main">#_IT Solution For Success</h4>
+                        <h4 class="h4-career-header-txt">Modren Technology Improve Your Bussiness</h4>
+                        <p class="p-career-header-txt">Briefly introduce our team, mission, and values, showcasing expertise and commitment to quality in website development services."</p>
+                    
+                        <div class="about-header-btn">
+                            <button type="submit" value="Submit" class="btn-lg-about-more">Read More</button>
+                            <button type="submit" value="Submit" class="btn-lg-about-list">Watch List</button>
+                        </div>
+                    </div>
+
+                        <div class="career-header-container-two">
+                             <img src="Assets/career_image/main_man_career.jpg" alt="image-logo" class="career-header-width">
+                        </div>
+                             <img src="Assets/about-image/img-full-arrow.jpg" alt="image-logo" class="career-header-arrow-rotate">
+                </div>
+            </section>
+            <!-- end section -->
+
+
+            <!-- start new carrer section code for technology stack -->
+            <section class="career-technology">
+                <div class="career-technology-in">
+                    <h2 class="h2-career-technology-in">#_TECHNOLOGY STACK</h2>
+                    <div class="career-horizontal-line-big"></div>
+
+                    <h2 class="h2-career-technology-heading">Technologies we work with</h2>
+
+                    <p class="p-career-technology-data">Our software development technology stack for creating a website focuses on a responsive and dynamic user interface, 
+                        efficient server-side processing, and reliable database management. This ensures a seamless user experience, quick load times, and robust data handling, resulting in a high-performance, scalable web application.</p>
+                </div>
+
+
+                <div class="tabContainer">
+                    <button class="tabButton" onclick="openTab(event, 'tab-frontend')" id="defaultOpen">Front-End</button>
+                    <button class="tabButton" onclick="openTab(event, 'tab-backend')">Back-End</button>
+                    <button class="tabButton" onclick="openTab(event, 'tab-mobile')">Mobile</button>
+                    <button class="tabButton" onclick="openTab(event, 'tab-database')">Database</button>
+                    <button class="tabButton" onclick="openTab(event, 'tab-cloud')">Cloud</button>
+                    <button class="tabButton" onclick="openTab(event, 'tab-opensource')">Open Source</button>
+                </div>
+            
+                <div id="tab-frontend" class="tabContent">
+                    <div class="tab-career-technology">
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Front_End/Angular.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">Angular</h2>
+                        </div> 
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Front_End/React-JS.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">React-JS</h2>
+                        </div>
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Front_End/BootStrap.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">BootStrap</h2>
+                        </div>
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Front_End/Vue-JS.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">Vue-JS</h2>
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="tab-backend" class="tabContent">
+                    <div class="tab-career-technology">
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Back-End/C-Sharp.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">C# / C-Shrap</h2>
+                        </div> 
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Back-End/Dot-NET.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">DOT-NET</h2>
+                        </div>
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Back-End/Java.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">JAVA</h2>
+                        </div>
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Back-End/Python.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">PYTHON</h2>
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="tab-mobile" class="tabContent">
+                    <div class="tab-career-technology">
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Mobile/Android.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">Android</h2>
+                        </div> 
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Mobile/ios.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">IOS</h2>
+                        </div>
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Mobile/Swift.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">Swift</h2>
+                        </div>
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Mobile/Kotlin.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">Kotlin</h2>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div id="tab-database" class="tabContent">
+                    <div class="tab-career-technology">
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Database/MySQL.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">MySQL</h2>
+                        </div> 
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Database/Mongo.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">Mongo-DB</h2>
+                        </div>
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Database/SQL-Server.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">SQL-Server</h2>
+                        </div>
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Database/PostgreSQL.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">PostgreSQL</h2>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div id="tab-cloud" class="tabContent">
+                    <div class="tab-career-technology">
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/DevOps-Clouds/Google-Cloud.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">Google Cloud</h2>
+                        </div> 
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/DevOps-Clouds/AWS.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">AWS Cloud</h2>
+                        </div>
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/DevOps-Clouds/Azure.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">Azure Cloud</h2>
+                        </div>
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/DevOps-Clouds/oracle-cloud.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">Oracle Cloud</h2>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div id="tab-opensource" class="tabContent">
+                    <div class="tab-career-technology">
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Open-Source/Wordpress.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">Wordpress</h2>
+                        </div> 
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Open-Source/Magento.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">Magento</h2>
+                        </div>
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Open-Source/Shopify.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">Shopify</h2>
+                        </div>
+            
+                        <div class="tab-career-technology-option">
+                            <img src="Assets/career_image/Open-Source/Kentico.jpg" alt="image-logo" class="same-width-career-technology">
+                            <h2 class="h2-name-client">Kentico</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- code start for career technology office -->
+            <section class="career-technology-office">
+
+                <div class="career-technology-in">
+                    <h2 class="h2-career-technology-in">#_Let’s build a better tomorrow together</h2>
+                    <div class="career-horizontal-line-big"></div>
+
+                    <!-- <h2 class="h2-career-technology-heading">Technologies we work with</h2> -->
+
+                    <p class="p-career-technology-data-office">We believe that fostering a culture of career development and learning is the key to our success as a company. Our employees are our most valuable asset, 
+                        and we want to provide them with the opportunity to grow and develop their skills. We offer a wide range of training programs and career evolution possibilities, which enables our employees 
+                        to stay current in their field and grow within the company. We are committed to provide our employees with the tools they need to succeed, and we know that investing in their careers is the best way to do that.<br><br>
+                   
+                        There's more to a person than a resume or a set of skills. People bring a collection of their skills, passions and experiences to every new job. Whether you are looking for the next step in your career, or a short-term job, 
+                        Mobicule can connect you with a great career opportunity that's just right for you.
+                    </p>
+                </div>
+
+
+
+                <div class="career-counter-section">
+                    <section class="counter-section">
+                        <div class="counter-section-inside">
+                            <i class="fa5 fa-check" aria-hidden="true"></i>
+                                <div class="counter" data-target="30">0</div>
+                        </div>
+                            <h1 class="h1-text-case-career-in">Projects Completed</h1>
+                    </section>
+                
+                    <div class="career-ul-line"></div>
+
+                    <section class="counter-section">
+                        <div class="counter-section-inside">
+                            <i class="fa5 fa-users" aria-hidden="true"></i>
+                                <div class="counter" data-target="25">0</div>
+                        </div>
+                            <h1 class="h1-text-case-career-in">Happy Clients</h1>
+                    </section>
+
+                    <div class="career-ul-line"></div>
+                
+                    <section class="counter-section">
+                        <div class="counter-section-inside">
+                            <i class="fa5 fa-bar-chart" aria-hidden="true"></i>
+                                <div class="counter" data-target="19">0</div>
+                        </div>
+                            <h1 class="h1-text-case-career-in">Employees</h1>
+                    </section>
+
+                    <div class="career-ul-line"></div>
+                
+                    <section class="counter-section">
+                        <div class="counter-section-inside">
+                            <i class="fa5 fa-map-marker" aria-hidden="true"></i>
+                                <div class="counter" data-target="2">0</div>
+                        </div>
+                        <h1 class="h1-text-case-career-in">Locations</h1>
+                    </section>
+                </div>
+            </section>
+        <!-- end section of career technology -->
+
+        <!-- section start for career team -->
+            <section class="career-workplace-team">
+                <h2 class="h2-text-case">workplace mantra that drives our days</h2>
+                    <div class="career-team-in">
+
+                        <div class="workplace-team-group">
+                            <img src="Assets/career_image/Career-IMG-01.jpg" alt="image-logo" class="career-team-group-width">
+                            <h1 class="h1-career-team-text">All that we do, we do it as a team.</h1>
+                        </div>
+
+                        <div class="workplace-team-group">
+                            <img src="Assets/career_image/Career-IMG-02.jpg" alt="image-logo" class="career-team-group-width">
+                            <h1 class="h1-career-team-text">Today we work hard and tomorrow we celebrate.</h1>
+                        </div>
+
+                        <div class="workplace-team-group">
+                            <img src="Assets/career_image/Career-IMG-03.jpg" alt="image-logo" class="career-team-group-width">
+                            <h1 class="h1-career-team-text">People take precedence over processes.</h1>
+                        </div>
+
+                        <div class="workplace-team-group">
+                            <img src="Assets/career_image/Career-IMG-04.jpg" alt="image-logo" class="career-team-group-width">
+                            <h1 class="h1-career-team-text">Encouraged to have an entrepreneurial mindset.</h1>
+                        </div>
+                    </div>
+
+                <div class="career-mission-driven">
+                    <h2 class="h2-text-case">working with smart & mission-driven people</h2>
+                        <div class="career-mission-driven-part">
+                            
+                            <div class="career-peak-benefits-task">
+                                <div class="mission-driven-peaks-benefits">
+                                    <img src="Assets/career_image/Career_Peak/perk-benifits-01.jpg" alt="image-logo" class="driven-peaks-benefits-width">
+                                    <h4 class="h4-text-outer">Perks</h4>
+                                </div>
+
+                                    <div class="career-team-list-in">
+                                        <i class="fa fa-check-circle-o same-i-extra-services" aria-hidden="true"><span class="services-span-in">Group Medical Insurance</span></i>
+                                        <i class="fa fa-check-circle-o same-i-extra-services" aria-hidden="true"><span class="services-span-in">Rewards & Recognition</span></i>
+                                        <i class="fa fa-check-circle-o same-i-extra-services" aria-hidden="true"><span class="services-span-in">Certification Sponsorship</span></i>
+                                        <i class="fa fa-check-circle-o same-i-extra-services" aria-hidden="true"><span class="services-span-in">Group Personal Accident Insurance</span></i>
+                                        <i class="fa fa-check-circle-o same-i-extra-services" aria-hidden="true"><span class="services-span-in">Gifts to celebrate a personal event</span></i>
+                                        <i class="fa fa-check-circle-o same-i-extra-services" aria-hidden="true"><span class="services-span-in">Gifts to celebrate a personal event</span></i>
+                                    </div>
+                                </div>
+
+                            <div class="career-peak-benefits-task">
+                                <div class="mission-driven-peaks-benefits">
+                                    <img src="Assets/career_image/Career_Peak/perk-benifits-02.jpg" alt="image-logo" class="driven-peaks-benefits-width">
+                                    <h4 class="h4-text-outer">Benefits</h4>
+                                </div>
+
+                                    <div class="career-team-list-in">
+                                        <i class="fa fa-check-circle-o same-i-extra-services" aria-hidden="true"><span class="services-span-in">Flexible Schedule</span></i>
+                                        <i class="fa fa-check-circle-o same-i-extra-services" aria-hidden="true"><span class="services-span-in">Pet Friendly</span></i>
+                                        <i class="fa fa-check-circle-o same-i-extra-services" aria-hidden="true"><span class="services-span-in">Approachable leadership</span></i>
+                                        <i class="fa fa-check-circle-o same-i-extra-services" aria-hidden="true"><span class="services-span-in">Subsidized meal & Snacks</span></i>
+                                        <i class="fa fa-check-circle-o same-i-extra-services" aria-hidden="true"><span class="services-span-in">Working with Smart & mission-driven people</span></i>
+                                        <i class="fa fa-check-circle-o same-i-extra-services" aria-hidden="true"><span class="services-span-in">Access to various learning tools & programs</span></i>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        <div class="career-brands">
+                            <h2 class="h2-career-technology-info">We create brands the world loves</h2>
+                            <p class="p-choose-main-text">DesignStudio is an international brand and design agency. We create brands for the most innovative and exciting companies in the world. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <div class="button-outer">
+                                <div class="button-btn-reflect">
+                                  <a class="btn-reflect-text" href="mailto:career@lealsolution.com">career@lealsolution.com</a>
+
+                                  <!-- <a class="indigo" target="_blank" href="https://microsoft.com">Microsoft</a> -->
+                                </div>
+
+                                <div class="button-btn-reflect-in">
+                                    <a class="btn-reflect-text" href="mailto:info@lealsolution.com">info@lealsolution.com</a>
+                                </div>
+                            </div>
+                        </div>   
+                    </section>
+    <!-- a code end of career team userid and team email id -->
+
+
+    <!-- a code start career software experience -->
+    <section class="career-software-experience">
+        <div class="career-equality-inclusion">
+            <div class="career-equality-in">
+                <div class="career-equality-inclusion-blow">
+                    <div class="equality-inclusion-in-blow">
+                        <h1 class="h1-equality-in-text">Diversity, Equity and Inclusion Initiative - Verve</h1>
+                        <p class="p-equality-p-text">In an endeavor to become a workplace of choice among people, we are striving to create an atmosphere where multiple voices are heard, and their opinions are valued and considered.</p>
+                    </div>
+                    <div class="equality-inclusion-out-blow">
+                        <img src="Assets/career_image/Worlplace_Team/workplace_team1.jpg" alt="image-logo" class="career-workplace-team-width">
+                    </div>
+                </div>
+
+                <div class="career-equality-inclusion-blow">
+                    <div class="equality-inclusion-in-blow">
+                        <h1 class="h1-equality-in-text">Balancing the Gender Mix- Verve</h1>
+                        <p class="p-equality-p-text">Referral Recruitment Drive – Exclusively for women to upskill or restart their career! Verve promotes gender balance by ensuring equal opportunities and representation for all genders in their workforce and leadership roles.</p>
+                    </div>
+                    <div class="equality-inclusion-out-blow">
+                        <img src="Assets/career_image/Worlplace_Team/workplace_team2.jpg" alt="image-logo" class="career-workplace-team-width">
+                    </div>
+                </div>
+
+                <div class="career-equality-inclusion-blow">
+                    <div class="equality-inclusion-in-blow">
+                        <h1 class="h1-equality-in-text">Leal Software  Recognized as India’s Most Admired & Valuable Power Brand Company 2020</h1>
+                        <p class="p-equality-p-text">The company was awarded at the India Leadership Conclave 2020 for having shown remarkable resilience and achievements in a very tough and hostile environment</p>
+                    </div>
+                    <div class="equality-inclusion-out-blow">
+                        <img src="Assets/career_image/Worlplace_Team/workplace_team3.jpg" alt="image-logo" class="career-workplace-team-width">
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="career-company-experince">Leal Software Solution Experience</h1>
+           
+        <!-- 1 a code start for leal software experience -->
+        <div class="career-slider-in">
+            <div class="career_slides_more">
+                <div class="career-slide-crm">
+                    <div class="career-slide-texter">
+                        <h2 class="h2-career-work-technology-in">#_Let’s gets Started!</h2>
+                        <p class="p-career-technology-work-data-office">
+                            We at Leal Software Solution are committed to the development & growth of our people. To achieve this, our endeavor is to create a learning culture within the organization through best-in-class learning opportunities for building technical expertise, behavioral and leadership skills, domain expertise, and functional expertise. We deploy various methodologies to enhance the learning experience and provide targeted development journeys at various levels.
+                            We believe that every individual owns his/her career.<br><br> Our aim is to nurture our people by engaging their minds, providing new challenges and the right opportunities to help them grow
+                        </p>
+                    </div>
+                    <div class="career-images-work">
+                        <img src="Assets/about-image/website-design-development.jpg" alt="image-logo" class="career-workplace-work-width">
+                    </div>
+                </div>
+    
+                <!-- Repeat the above block for each slide -->
+                <div class="career-slide-crm">
+                    <div class="career-slide-texter">
+                        <h2 class="h2-career-work-technology-in">#_technology stack</h2>
+                        <p class="p-career-technology-work-data-office">
+                            Happy people are better employees. Those who are engaged with their jobs and colleagues work diligently and smarter.<br><br>
+
+                            We understand this mantra and are focused on creating a happy and conducive environment for our people. At Birlasoft, we actively engage our people and encourage volunteerism for A various programs and initiatives such as - cultural events, celebrations, community service initiatives and fun at work.<br><br>
+                            
+                            Our wellness program is specially designed to ensure the health and safety of our employees and their families. We have tie-ups with the best hospitals to ensure the timely care of our employees                        
+                        </p>
+                    </div>
+                    <div class="career-images-work">
+                        <img src="Assets/research_image/it_consluting.jpg" alt="image-logo" class="career-workplace-work-width">
+                    </div>
+                </div>
+    
+                <div class="career-slide-crm">
+                    <div class="career-slide-texter">
+                        <h2 class="h2-career-work-technology-in">#_performance and organization</h2>
+                        <p class="p-career-technology-work-data-office">
+                            We at Leal Software Solution believe in Continuous Performance Enablement, and this is achieved by providing processes and systems that enable:
+                            <li class="career-work-li-list"> The Employees and the Organization to achieve goals</li>
+                            
+                            <li class="career-work-li-list"> Promote great standards of excellence</li>
+                                
+                            <li class="career-work-li-list">  Build a high-performance work culture of Openness, Collaboration, and Continuous Performance Enablement </li>
+                           
+                        </p>
+                    </div>
+                    <div class="career-images-work">
+                        <img src="Assets/External_Data_Images/Digital-Customer-Experience.jpg" alt="image-logo" class="career-workplace-work-width">
+                    </div>
+                </div>
+    
+                <div class="career-slide-crm">
+                    <div class="career-slide-texter">
+                        <h2 class="h2-career-work-technology-in">#_trending and services</h2>
+                        <p class="p-career-technology-work-data-office">
+                            Leal Software Solutions has a proven track record of delivering high-quality software development services across various industries. With years of experience, the company excels in designing, developing, and implementing innovative software solutions tailored to meet client needs. The company follows a meticulous process that includes understanding client requirements, 
+                            creating detailed specifications, and ensuring timely project delivery. Known for its commitment to excellence, Leal Software Solutions maintains high standards through rigorous testing, code reviews, and optimization practices. The company's collaborative approach and dedication to client satisfaction have resulted in the successful completion of numerous high-impact projects. 
+                        </p>
+                    </div>
+                    <div class="career-images-work">
+                        <img src="Assets/External_Data_Images/marketing_managear01.jpg" alt="image-logo" class="career-workplace-work-width">
+                    </div>
+                </div>
+            </div>
+
+                <button class="btn_prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="btn_next" onclick="changeSlide(1)">&#10095;</button>
+                <div class="services_indicators_slide">
+                    <span class="indicator" onclick="currentSlide(0)"></span>
+                    <span class="indicator" onclick="currentSlide(1)"></span>
+                    <span class="indicator" onclick="currentSlide(2)"></span>
+                    <span class="indicator" onclick="currentSlide(3)"></span>
+                </div>
+            </div> 
+        </div>
+    </section>
+<!-- end code of compnay work experience -->
+
+
+        <!-- a code start for career job apply -->
+        <section class="career-jobs">
+            <div class="career-job-apply">
+
+                <div class="career-job-roles">
+                    <h1 class="h1-jobs-text-highlights">Software Developer</h1>
+                    <h2 class="h2-jobs-text-markup">Pune, India</h1>
+                        <div class="career-jobs-ul-line"></div>
+                    <p class="p-jobs-text-description">Design, develop, and deploy software solutions, collaborate with teams, and ensure high-quality code in various software developer positions.</p>
+                    <button class="jobs-apply-btn" onclick="openApplyForm()">Apply</button>
+                </div>
+
+                <div class="career-job-roles">
+                    <h1 class="h1-jobs-text-highlights">Web Developer</h1>
+                    <h2 class="h2-jobs-text-markup">Pune, India</h1>
+                        <div class="career-jobs-ul-line"></div>
+                    <p class="p-jobs-text-description">Design, develop, and deploy software solutions, collaborate with teams, and ensure high-quality code in various software developer positions.</p>
+                    <button class="jobs-apply-btn" onclick="openApplyForm()">Apply</button>
+                </div>
+
+                <div class="career-job-roles">
+                    <h1 class="h1-jobs-text-highlights">Android Developer</h1>
+                    <h2 class="h2-jobs-text-markup">Pune, India</h1>
+                        <div class="career-jobs-ul-line"></div>
+                    <p class="p-jobs-text-description">Design, develop, and deploy software solutions, collaborate with teams, and ensure high-quality code in various software developer positions.</p>
+                    <button class="jobs-apply-btn" onclick="openApplyForm()">Apply</button>
+                </div>
+
+                <div class="career-job-roles">
+                    <h1 class="h1-jobs-text-highlights">Java Developer</h1>
+                    <h2 class="h2-jobs-text-markup">Pune, India</h1>
+                        <div class="career-jobs-ul-line"></div>
+                    <p class="p-jobs-text-description">Design, develop, and deploy software solutions, collaborate with teams, and ensure high-quality code in various software developer positions.</p>
+                    <button class="jobs-apply-btn" onclick="openApplyForm()">Apply</button>
+                </div>
+
+                <div class="career-job-roles">
+                    <h1 class="h1-jobs-text-highlights">DOT NET Developer</h1>
+                    <h2 class="h2-jobs-text-markup">Pune, India</h1>
+                        <div class="career-jobs-ul-line"></div>
+                    <p class="p-jobs-text-description">Design, develop, and deploy software solutions, collaborate with teams, and ensure high-quality code in various software developer positions.</p>
+                    <button class="jobs-apply-btn" onclick="openApplyForm()">Apply</button>
+                </div>
+
+                <div class="career-job-roles">
+                    <h1 class="h1-jobs-text-highlights">UI/UX Developer</h1>
+                    <h2 class="h2-jobs-text-markup">Pune, India</h1>
+                        <div class="career-jobs-ul-line"></div>
+                    <p class="p-jobs-text-description">Design, develop, and deploy software solutions, collaborate with teams, and ensure high-quality code in various software developer positions.</p>
+                    <button class="jobs-apply-btn" onclick="openApplyForm()">Apply</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- a code end for career job apply -->
+
+
+    <!-- code start for footer -->
+        <section class="page-footer">
+            <div class="page-footer-in">
+
+                <div class="page-footer-last">
+                    <div class="page-logo-lorem first-extra-footer-width">
+                        <h3 class="h3-footer-title-last-logo">Logo</h3>
+                        <p class="p-footer-text-in">discover our premier mobile app development services, delivering end-to-end solutions for iOS and Android platforms. From concept to launch, our expert team offers consultation, innovative design, robust development, rigorous testing, and ongoing support. With a focus on user-centricity and client objectives. With a focus on user-centricity and client objectives.</p>
+                    </div>
+        
+                        <div class="footer-useful-pages widht-same-last-footer">
+                            <h3 class="h3-footer-title-last-logo">Useful Pages</h3>
+                                 <nav class="nav-first-last">
+                                    <ul class="nav-lists" >
+                                        <li><a href="index.html">HOME</a></li>
+                                        <li><a href="services.html">SERVICES</a></li>
+                                        <li><a href="#search">PRODUCT</a></li>
+                                        <li><a href="research.html">RESERACH</a></li>
+                                        <li><a href="about.html">ABOUT US</a></li>
+                                        <li><a href="career.html">CAREER</a></li>
+                                        <li><a href="contact.html">CONTACT US</a></li>
+                                    </ul>
+                                </nav>
+                        </div>
+        
+                        <div class="footer-quick-links widht-same-last-footer">
+                            <h3 class="h3-footer-title-last-logo">Quick Links</h3>
+                                <nav class="nav-first-last">
+                                    <ul class="nav-lists" >
+                                        <li><a href="index.html">HOME</a></li>
+                                        <li><a href="services.html">SERVICES</a></li>
+                                        <li><a href="#search">PRODUCT</a></li>
+                                        <li><a href="research.html">RESERACH</a></li>
+                                        <li><a href="about.html">ABOUT US</a></li>
+                                        <li><a href="career.html">CAREER</a></li>
+                                        <li><a href="contact.html">CONTACT US</a></li>
+                                    </ul>
+                                </nav>
+                        </div>
+        
+                    <div class="footer-touch-link first-extra-footer-width">
+                        <h3 class="h3-footer-title-last-logo">Get In Touch</h3>
+        
+                        <div class="footer-info-about">
+                            <p><i class="fa3 fa-map-marker"></i><span class="span-footer-info"> Green Life Hinjewadi Phase-1 Pune</span></p>
+                            <p><i class="fa3 fa-envelope"></i><span class="span-footer-info">career@lealsolution.com</span></p>
+                            <p><i class="fa3 fa-phone"></i><span class="span-footer-info">+91 9876543210</span></p>
+                            <p><i class="fa3 fa-certificate"></i><span class="span-footer-info">Social-Media</span></p>
+                        </div>
+        
+                        <div class="footer-social-media">
+                            <a href="https://twitter.com" class="my-footer-link"><i class="fa4 fa-twitter footer-same-box"></i></a>
+                            <a href="https://linkdin.com" class="my-footer-link"><i class="fa4 fa-linkedin footer-same-box"></i></a>
+                            <a href="https://instagram.com" class="my-footer-link"><i class="fa4 fa-instagram footer-same-box"></i></a>
+                            <a href="https://youtube.com" class="my-footer-link"><i class="fa4 fa-youtube footer-same-box"></i></a>
+                            <a href="https://facebook.com" class="my-footer-link"><i class="fa4 fa-facebook footer-same-box"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                     <div class="header-horizontal-line-big"></div>
+
+                <div class="footer-copyright">
+                    <div class="footer-copyright-data">
+                        <p class="p-footer-text-copyright">
+                            © 2024 Leal Software Solution. All Rights Reserved.    Privacy Policy   |   Cookie Policy  |   Cookie Preferences<br>
+                            Disclaimers:<br>
+                            GARTNER is a registered trademark and service mark of Gartner, Inc. and/or its affiliates in the U.S. and internationally, Magic Quadrant is a registered trademark of Gartner, Inc. and/or its affiliates and is used herein with permission. All rights reserved.
+                            Gartner does not endorse any vendor, product or service depicted in its research publications and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s Research & Advisory organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.
+                        </p>
+                    </div>
+                </div>
+
+                
+                <div class="contact-map-area-header">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.4882153385047!2d73.73456617404823!3d18.597098066834434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bb0c38b73eff%3A0x33e7681bbea9508d!2sGreen%20life%20society%20B-%20Wing!5e0!3m2!1sen!2sin!4v1714454938402!5m2!1sen!2sin" 
+                    width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+                </div>
+            </div>
+            <button onclick="topFunction()" id="top_myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+        </section>
+        
+        <!-- end code of footer -->
+
+
+        <!-- a code start for to be button working on tab button -->
+            <script>
+                // Open the default tab on page load
+                document.getElementById("defaultOpen").click();
+        
+                function openTab(evt, tabName) {
+                    // Get all elements with class="tabContent" and hide them
+                    var tabContent = document.getElementsByClassName("tabContent");
+                    for (var i = 0; i < tabContent.length; i++) {
+                        tabContent[i].style.display = "none";
+                    }
+        
+                    // Get all elements with class="tabButton" and remove the class "active"
+                    var tabButton = document.getElementsByClassName("tabButton");
+                    for (var i = 0; i < tabButton.length; i++) {
+                        tabButton[i].className = tabButton[i].className.replace(" active", "");
+                    }
+        
+                    // Show the current tab, and add an "active" class to the button that opened the tab
+                    document.getElementById(tabName).style.display = "block";
+                    evt.currentTarget.className += " active";
+                }
+            </script>
+            <!-- a code end for tab button  -->
+        
+
+            <!-- a code start for to count projects, employee, clinet, location -->
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    const counters = document.querySelectorAll('.counter');
+                    
+                    counters.forEach(counter => {
+                        counter.innerText = '0';
+        
+                        const updateCounter = () => {
+                            const target = +counter.getAttribute('data-target');
+                            const count = +counter.innerText;
+        
+                            const increment = target / 200;
+        
+                            if (count < target) {
+                                counter.innerText = Math.ceil(count + increment);
+                                setTimeout(updateCounter, 40);
+                            } else {
+                                counter.innerText = target;
+                            }
+                        };
+        
+                        updateCounter();
+                    });
+                });
+            </script>
+            <!-- a code end for counter no of projects, employee, clients location -->
+
+
+
+            <!-- a code start for leal software solution -->
+            <script>
+                let currentSlideIndex = 0;
+        
+                function changeSlide(direction) {
+                    const slides = document.querySelector('.career_slides_more');
+                    const totalSlides = slides.children.length;
+                    currentSlideIndex = (currentSlideIndex + direction + totalSlides) % totalSlides;
+                    updateSlider();
+                }
+        
+                function currentSlide(index) {
+                    currentSlideIndex = index;
+                    updateSlider();
+                }
+        
+                function updateSlider() {
+                    const slides = document.querySelector('.career_slides_more');
+                    const slideWidth = slides.children[0].clientWidth;
+                    slides.style.transform = `translateX(-${currentSlideIndex * slideWidth}px)`;
+        
+                    const indicators = document.querySelectorAll('.services_indicators_slide .indicator');
+                    indicators.forEach((indicator, index) => {
+                        if (index === currentSlideIndex) {
+                            indicator.classList.add('active');
+                        } else {
+                            indicator.classList.remove('active');
+                        }
+                    });
+                }
+        
+                // Initialize slider on page load
+                document.addEventListener('DOMContentLoaded', updateSlider);
+            </script>
+            <!-- a code end for leal software solution work experience -->
+
+            <!-- a code for job apply form open -->
+            <script>
+                function openApplyForm() {
+                    window.open("apply.html", "_blank", "width=600,height=600");
+                }
+            </script>
+            <!-- a code end for job apply -->
+
+
+        <!-- a javascript code for #top_mybtn -->
+        <script>
+            // Get the button
+            let mybutton = document.getElementById("top_myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <!-- a javascript code end of #top_mybtn -->
+
+     </body>
+    </html>
+        
