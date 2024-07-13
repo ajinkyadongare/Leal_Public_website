@@ -3784,7 +3784,7 @@ button.tablinks1 {
     width: 75%;
     padding: 20px 20px 10px 20px;
 }
-.tabcontent {
+.odoo-tabcontent {
     padding: 80px 80px 0px 80px;
 }
 .h2-odoo-work-technology-in
@@ -4213,7 +4213,7 @@ button.tablinks1 {
 /* a code start of odoo finance page */
 .finance-erp-account
 {
-    height: 5000px;
+    height: 1000px;
     position: relative;
 }
 .finance-erp-main
@@ -4223,7 +4223,7 @@ button.tablinks1 {
     left: 0;
     display: inline-block;
     width: 100%;
-    height: 4500px;
+    height: 900px;
     background-image: url(../Assets/odoo/theme-hero.jpg);
     background-position: center center;
     background-repeat: repeat;
@@ -4231,7 +4231,7 @@ button.tablinks1 {
     position: absolute;
 }
 .finance-erp-apps {
-     height: 4000px;
+     height: 8500px;
 }
 .h2-finance-erp-text {
     color: #7a3b6a;
@@ -4290,7 +4290,7 @@ button.tablinks1 {
     color: white;
 }
 .finance-tabContent {
-    height: 4000px;
+    height: 8000px;
     border-radius: 5px;
     margin: 50px 60px 0px 60px;
     border: 1px solid rgb(233, 233, 233);
@@ -4328,11 +4328,36 @@ button.tablinks1 {
 }
 .finance-bg-mod1 {
     width: 50%;
+    position: relative;
 }
 .finance-workplace-width {
     width: 100%;
     height: 100%;
     box-shadow: 5px 5px 5px 0 #d5d5d5;
+}
+.finance-workplace-bill-width {
+    padding-left: 50px;
+    height: 85%;
+    width: 90%;
+}
+.finance-bill-position {
+    position: absolute;
+    top: 460px;
+    left: 175px;
+    text-align: center;
+}
+.finance-workplace-account-bill-width {
+    width: 200%;
+    height: auto;
+    box-shadow: 5px 5px 5px 0 #d5d5d5;
+}
+.finance-mobile-bill-width {
+    padding-left: 150px;
+    height: auto;
+}
+.finance-extra-h
+{
+    height: 1100px;
 }
 .finance-bg-mod2 {
     width: 50%;
@@ -4358,6 +4383,36 @@ button.tablinks1 {
     line-height: 30px;
     font-family: 'Montserrat', sans-serif;
     padding: 0px 5px 0px 25px;
+}   /*   */
+.odoo-features-functional {
+    margin-top: 50px;
+}
+.finance-feature-tab {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap:  20px 30px; 
+}
+.finance-feature-in {
+    background-color: rgb(233 232 232);
+    box-shadow: 5px 5px 5px 0 #d5d5d5;
+}
+.h1-finance-feature-text {
+    color: #714b67;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 25px 10px 0px 15px;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+.p-finance-feature-text {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px 10px 0px 15px;
+    text-align: left;
+    /* text-transform: capitalize; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 
