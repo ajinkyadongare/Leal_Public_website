@@ -4211,13 +4211,11 @@ button.tablinks1 {
 /* code end of poduct odoo web page */
 
 /* a code start of odoo finance page */
-.finance-erp-account
-{
-    height: 1000px;
+.finance-erp-account {
+    height: 7777px;
     position: relative;
 }
-.finance-erp-main
-{
+.finance-erp-main {
     content: "";
     top: 0;
     left: 0;
@@ -4231,7 +4229,7 @@ button.tablinks1 {
     position: absolute;
 }
 .finance-erp-apps {
-     height: 8500px;
+     height: auto;
 }
 .h2-finance-erp-text {
     color: #7a3b6a;
@@ -4290,8 +4288,8 @@ button.tablinks1 {
     color: white;
 }
 .finance-tabContent {
-    height: 8000px;
-    border-radius: 5px;
+    height: 7025px;
+    border-radius: 0px;
     margin: 50px 60px 0px 60px;
     border: 1px solid rgb(233, 233, 233);
     background-image: url(../Assets/odoo/odoo-bg.jpg);
@@ -4389,15 +4387,16 @@ button.tablinks1 {
 }
 .finance-feature-tab {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap:  20px 30px; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 40px;
+    padding: 70px 30px 0px 30px;
 }
 .finance-feature-in {
-    background-color: rgb(233 232 232);
-    box-shadow: 5px 5px 5px 0 #d5d5d5;
+    background-color: #7a3b6a;
+    border: 1px solid #b7b7b7;
 }
 .h1-finance-feature-text {
-    color: #714b67;
+    color: #ffffff;
     font-size: 22px;
     font-weight: bold;
     padding: 25px 10px 0px 15px;
@@ -4406,16 +4405,103 @@ button.tablinks1 {
     font-family: 'Montserrat', sans-serif;
 }
 .p-finance-feature-text {
-    color: #000000;
+    color: #f1f1f1;
     font-size: 15px;
     font-weight: 500;
-    padding: 20px 10px 0px 15px;
+    padding: 3px 10px 0px 15px;
     text-align: left;
-    /* text-transform: capitalize; */
+    word-spacing: 0px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.h2-text-finance-case {
+    color: #7a3b6a;
+}
+.finance-feature-in:hover {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left: 9px solid #ff0000;
+    transition: all ease-in-out 0.6s;
+}
+.finance-services-in {
+    padding-top: 50px;
+}
+.fin-services-in-ll {
+    display: flex;
+    width: 100%;
+    padding: 50px 20px 0px 20px;
+}
+.fin-services-ccg {
+    text-align: center;
+    width: 25%;
+    height: auto;
+    border: 1px solid;
+    margin: 25px 20px;
+    background-image: url(../Assets/odoo/theme-hero.jpg);
+    background-position: 42%;
+    background-repeat: repeat;
+}
+.fin-services-ccg-width {
+    width: 50%;
+    text-align: center;
+    object-fit: contain;
+    height: 90px;
+    padding-top: 5px;
+}
+.h2-fin-text-in {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 20px 0px 0px 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+.p-fin-mod-text {
+    line-height: 20px;
+}
+.p-finance-head-text {
+    color: rgb(0 0 0);
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 28px;
+    padding: 15px 100px 0px 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+                    /* a code for faq button */
+.faq-container {
+    width: 90%;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.faq-question {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 8px;
     font-family: 'Montserrat', sans-serif;
 }
 
-
+.faq-answer {
+    display: none;
+    margin: 0;
+    font-size: 15px;
+    color: white;
+    background-color: #7a3b6a;
+    padding: 0px 5px 5px 6px;
+    font-family: 'Montserrat', sans-serif;
+}
+.h2-text-faq-case {
+    color: #7a3b6a;
+    padding: 10px 0px 10px 0px;
+}
 
 
 
