@@ -4212,8 +4212,7 @@ button.tablinks1 {
 
 /* a code start of odoo finance page */
 .finance-erp-account {
-    height: 7777px;
-    position: relative;
+    height: auto;
 }
 .finance-erp-main {
     content: "";
@@ -4221,12 +4220,11 @@ button.tablinks1 {
     left: 0;
     display: inline-block;
     width: 100%;
-    height: 900px;
+    height: auto;
     background-image: url(../Assets/odoo/theme-hero.jpg);
     background-position: center center;
     background-repeat: repeat;
     background-attachment: fixed;
-    position: absolute;
 }
 .finance-erp-apps {
      height: auto;
@@ -4288,9 +4286,9 @@ button.tablinks1 {
     color: white;
 }
 .finance-tabContent {
-    height: 7025px;
+    height: auto;
     border-radius: 0px;
-    margin: 50px 60px 0px 60px;
+    margin: 50px 60px 45px 60px;
     border: 1px solid rgb(233, 233, 233);
     background-image: url(../Assets/odoo/odoo-bg.jpg);
 }
@@ -4467,7 +4465,7 @@ button.tablinks1 {
     padding: 15px 100px 0px 100px;
     font-family: 'Montserrat', sans-serif;
 }
-                    /* a code for faq button */
+/* a code for faq button */
 .faq-container {
     width: 90%;
     margin: 30px auto;
@@ -4476,19 +4474,16 @@ button.tablinks1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-
 .faq-item {
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
 }
-
 .faq-question {
     cursor: pointer;
     font-weight: bold;
     margin: 8px;
     font-family: 'Montserrat', sans-serif;
 }
-
 .faq-answer {
     display: none;
     margin: 0;
@@ -4501,9 +4496,109 @@ button.tablinks1 {
 .h2-text-faq-case {
     color: #7a3b6a;
     padding: 10px 0px 10px 0px;
+} /*a code end for finance accounting tab*/
+
+/* a code start for finance-invoicng */
+.finance-invoicng-width {
+    width: 68%;
+    height: 70%;
+    box-shadow: 5px 5px 5px 0 #d5d5d5;
 }
-
-
+.finance-invoicng-h {
+    height: 700px;
+}
+.store-buttons {
+    display: flex;
+    gap: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 15px 0px 50px;
+}
+.store-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.google-play {
+    background-color: #f4ffed;
+    border: 1px solid #e1dbdb;
+    font-size: 14px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.app-store {
+    background-color: #f4ffed;
+    border: 1px solid #e1dbdb;
+    font-size: 14px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.store-button img {
+    width: 28px;
+    height: auto;
+    margin-right: 10px;
+}
+/* a code end invoicing */
+/* a code for expenses */
+.finance-expenses-width {
+    width: 70%;
+    height: 80%;
+    box-shadow: 5px 5px 5px 0 #d5d5d5;
+}
+.finance-expenses-h {
+    height: 800px;
+}
+.expense-more-sc {
+    margin: 20px 0px 0px 150px;
+}
+.finance-expenses-grider {
+    display: flex;
+}
+.finance-expenses-mod1 {
+    width: 100%;
+    padding-left: 200px;
+}
+.expenses-grider-width {
+    width: 25%;
+}
+.h1-fin-expenses {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 28px 0px 0px 5px;
+}
+.finance-expenses-mod2 {
+    width: 100%;
+    padding: 70px 20px 0px 30px;
+}
+.one-report-width {
+    width: 28%;
+    position: absolute;
+    top: -100px;
+    left: 428px;
+}
+.expenses-report-width1 {
+    width: 12%;
+    position: absolute;
+    top: -85px;
+    left: 28px;
+}
+.expenses-report-width2 {
+    width: 12%;
+    position: absolute;
+    top: -85px;
+    left: 205px;
+}
+.expenses-report-width3 {
+    width: 12%;
+    position: absolute;
+    top: -75px;
+    left: 400px;
+}
 
 
 

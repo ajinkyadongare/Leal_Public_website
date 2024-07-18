@@ -3,194 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ Section</title>
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1uyIoQc1dUxWqVPXnJ7+1Nl9LMPU7UHjreZ/McNUI3KbgeGoZ3mXf2pQGm8gjYt8R5UKsgZUJu2KKF1Ias9E2Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Download Links</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-
-        .faq-container {
-            width: 80%;
-            margin: 0 auto;
-            background: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-        }
-
-        .faq-item {
-            border-bottom: 1px solid #ccc;
-            padding: 10px 0;
-        }
-
-        .faq-question {
-            cursor: pointer;
-            font-weight: bold;
-            margin: 0;
+        .store-buttons {
             display: flex;
-            align-items: center;
-        }
-
-        .question-text {
-            flex: 1;
-        }
-
-        .arrow-container {
-            width: 24px;
-            height: 24px;
-            background-color: #ccc;
-            border-radius: 50%;
-            display: flex;
+            gap: 20px;
             justify-content: center;
             align-items: center;
-            margin-left: 10px;
-            transition: background-color 0.3s ease;
+            margin-top: 50px;
         }
-
-        .arrow {
-            font-size: 14px;
-            color: #555;
-            transition: transform 0.3s ease;
+        .store-button {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #000;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
         }
-
-        .faq-answer {
-            display: none;
-            padding: 10px 0;
-            margin: 0;
+        .google-play {
+            background-color: #fff;
+            border: 1px solid #000;
         }
-
-        .arrow.up {
-            transform: rotate(180deg);
+        .app-store {
+            background-color: #fff;
+            border: 1px solid #000;
+        }
+        .store-button img {
+            width: 20px;
+            height: auto;
+            margin-right: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="faq-container">
-        <div class="faq-item">
-            <div class="faq-question">
-                <div class="question-text">What is your return policy?</div>
-                <div class="arrow-container">
-                    <i class="fa fa-arrow-down arrow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="faq-answer">Our return policy lasts 30 days. If 30 days have gone by since your purchase, unfortunately, we can’t offer you a refund or exchange.</div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <div class="question-text">How do I track my order?</div>
-                <div class="arrow-container">
-                    <i class="fa fa-arrow-down arrow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="faq-answer">You can track your order by clicking on the 'Track Order' link provided in the confirmation email.</div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <div class="question-text">Do you ship internationally?</div>
-                <div class="arrow-container">
-                    <i class="fa fa-arrow-down arrow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="faq-answer">Yes, we ship to most countries worldwide. Shipping costs will apply and will be added at checkout.</div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <div class="question-text">How can I contact customer service?</div>
-                <div class="arrow-container">
-                    <i class="fa fa-arrow-down arrow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="faq-answer">You can contact our customer service team via the 'Contact Us' page on our website or by calling our hotline.</div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <div class="question-text">What payment methods do you accept?</div>
-                <div class="arrow-container">
-                    <i class="fa fa-arrow-down arrow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="faq-answer">We accept various payment methods including credit cards, debit cards, and PayPal.</div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <div class="question-text">Can I change my order?</div>
-                <div class="arrow-container">
-                    <i class="fa fa-arrow-down arrow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="faq-answer">If your order has not been processed yet, you can change it by contacting our customer service.</div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <div class="question-text">What if I receive a damaged item?</div>
-                <div class="arrow-container">
-                    <i class="fa fa-arrow-down arrow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="faq-answer">If you receive a damaged item, please contact us immediately for a replacement or refund.</div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <div class="question-text">How long does shipping take?</div>
-                <div class="arrow-container">
-                    <i class="fa fa-arrow-down arrow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="faq-answer">Shipping times vary based on your location. Typically, orders are delivered within 5-10 business days.</div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <div class="question-text">Do you offer gift wrapping?</div>
-                <div class="arrow-container">
-                    <i class="fa fa-arrow-down arrow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="faq-answer">Yes, we offer gift wrapping for an additional fee. You can select this option at checkout.</div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <div class="question-text">How do I create an account?</div>
-                <div class="arrow-container">
-                    <i class="fa fa-arrow-down arrow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="faq-answer">You can create an account by clicking the 'Sign Up' button on the top right corner of our website and filling in your details.</div>
-        </div>
+    <div class="store-buttons">
+        <a class="store-button google-play" href="https://play.google.com/store/apps/details?id=com.odoo.mobile&hl=en&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+            <img src="https://odoocdn.com/base_setup/static/src/img/logo_google_play.png" alt="Google Play">
+            Get it on Google Play
+        </a>
+        <a class="store-button app-store" href="https://play.google.com/store/apps/details?id=com.odoo.mobile&hl=en&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+            <img src="https://odoocdn.com/base_setup/static/src/img/logo_apple_store.png" alt="App Store">
+            Download on the App Store
+        </a>
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var questions = document.querySelectorAll('.faq-question');
-
-            questions.forEach(function (question) {
-                question.addEventListener('click', function () {
-                    var answer = this.nextElementSibling;
-                    var arrowContainer = this.querySelector('.arrow-container');
-                    var arrow = arrowContainer.querySelector('.arrow');
-                    var isOpen = answer.style.display === 'block';
-
-                    // Close all answers and reset all arrows
-                    document.querySelectorAll('.faq-answer').forEach(function (answer) {
-                        answer.style.display = 'none';
-                    });
-                    document.querySelectorAll('.arrow').forEach(function (arrow) {
-                        arrow.classList.remove('up');
-                        arrow.classList.add('down');
-                    });
-
-                    // Toggle the clicked answer and arrow
-                    if (!isOpen) {
-                        answer.style.display = 'block';
-                        arrow.classList.remove('down');
-                        arrow.classList.add('up');
-                    }
-                });
-            });
-        });
-    </script>
 </body>
 </html>
