@@ -4210,7 +4210,7 @@ button.tablinks1 {
 }
 /* code end of poduct odoo web page */
 
-/* a code start of odoo finance page */
+/* a code start for odoo finance page accounting, invoicing, expense, spredsheet, documents, sign */
 .finance-erp-account {
     height: auto;
 }
@@ -4613,7 +4613,10 @@ button.tablinks1 {
     padding: 30px 0px 30px 15px;
     font-family: 'Montserrat', sans-serif;
 }
-
+/* a code end for odoo finance page accounting, invoicing, expense, spredsheet, documents, sign */
+.sales-erp-video {
+    margin: 0px 150px 70px 150px;
+}
 
 
 

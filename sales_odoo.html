@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leal Software Solution</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+            <!-- nav list section -->
+             <section class="section-navbar">
+                <div class="div-nav">
+                    <div class="nav-logo-img">
+                        <a href="index.html">
+                            <img src="Assets/Images/leal-software-black-white-logo.jpg" alt="Button Image" class="width-logo">
+                        </a>
+                        <!-- <h1 class="width-logo">Logo</h1> -->
+                    </div>
+                    <div class="nav-menu-list">
+                        <div class="menu-list">
+                            <nav class="nav-list-ul">
+                                <ul class="nav-list " >
+                                        <!-- <li><a href="index.html">HOME</a></li> -->
+                                        <li><a href="services.html">SERVICES</a></li>
+                                        <li class="has-submenu">
+                                            <span class="submenu-span-in">PRODUCT</span>
+                                            <ul class="submenu">
+                                            <li><a href="odoo_cloud.html">Oddo/Cloud ERP</a></li>
+                                            <li><a href="task_trak.html">TaskTrak Hub</a></li>
+                                            <li><a href="hvac_task.html">HVAC Task Manager</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="research.html">RESERACH</a></li>
+                                        <li><a href="about.html">ABOUT US</a></li>
+                                        <li><a href="career.html">CAREER</a></li>
+                                        <li><a href="blogs.html">BLOGS</a></li>
+                                        <li><a href="contact.html">CONTACT US</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="btn-menu-list">
+                        <button class="MenuButton">&#9776;</button>
+                    </div>
+                </div>
+            </section>
+            <!-- end section -->
+        
+            <!-- start a new section finance : Accounting -->
+            <section class="finance-erp-account">
+                <div class="finance-erp-main">
+                    <div class="finance-erp-apps">
+                        <h2 class="h2-finance-erp-text">"One platform for all your business needs. <br>Smart, streamlined, and affordable!"</h2>
+                        <p class="p-finance-erp-text">Odoo is an all-in-one business software that streamlines operations with a suite of fully integrated applications. Whether you need CRM, sales, inventory management, accounting, HR, or project management, Odoo has you covered. Its intuitive interface and modular design allow you to customize and scale applications to fit your unique business needs. Automate routine tasks, enhance collaboration, and gain valuable insights with real-time data analytics. Odoo’s affordability and comprehensive feature set make it the ideal solution for businesses of all sizes. Empower your team and drive growth with Odoo’s versatile and efficient platform.</h1>
+                
+                        <div class="finance-tabContainer">
+                            <button class="finance-tabButton" onclick="openTab(event, 'tab-crm')">CRM</button>
+                            <button class="finance-tabButton" onclick="openTab(event, 'tab-sales')"id="defaultOpen">Sales</button>
+                            <button class="finance-tabButton" onclick="openTab(event, 'tab-Shop')">Shop</button>
+                            <button class="finance-tabButton" onclick="openTab(event, 'tab-Restaurant')">Restaurant</button>
+                            <button class="finance-tabButton" onclick="openTab(event, 'tab-subscription')">Subscription</button>
+                            <button class="finance-tabButton" onclick="openTab(event, 'tab-rental')">Rental</button>
+                        </div>
+
+                            <!-- a code start for accounting --> 
+                            <div id="tab-crm" class="finance-tabContent">
+                                    <h2 class="h2-finance-acc-text">"Sales Teams: From Good to Great with Our Solutions"</h2>
+                                    <p class="p-finance-acc-text">"Odoo CRM is designed to transform your sales teams from good to great by offering a truly customer-centric solution. With Odoo CRM, you can seamlessly track leads and opportunities, ensuring that no potential sale is overlooked. The platform provides accurate sales forecasts, helping your team make informed decisions and strategize effectively. By streamlining your sales processes, Odoo CRM allows your team to focus on what truly matters: closing deals and driving revenue. Its intuitive interface and comprehensive features enable efficient management of your sales pipeline, enhancing productivity and performance. Whether you’re managing a small team or a large sales force, Odoo CRM scales with your needs, providing the tools necessary to elevate your sales operations. Embrace Odoo CRM and witness your sales teams transition from good to exceptional, achieving greater success and satisfaction."</p>
+                                
+                                <div class="finance-erp-video">
+                                    <img src="Assets/odoo/odoo_sales/odoo_crm/hero_crm.jpg" class="img-thumbnail" alt="Vendor Bill" loading="lazy" style="">
+                                </div>
+
+                                <div class="finance-bussiness-module">
+                                    <div class="finance-bg-mod1">
+                                        <video autoplay="autoplay" loop="loop" muted="muted" class="img-thumbnail">
+                                            <source src="https://download.odoocdn.com/videos/odoo_com/video_accounting.webm" type="video/webm">
+                                            <source src="https://download.odoocdn.com/videos/odoo_com/video_accounting.mp4" type="video/mp4">
+                                        </video>
+                                    </div>
+                                    <div class="finance-bg-mod2">
+                                        <h1 class="h1-finance-bg-txt">See Every Chance: Keep Opportunities Within Clear View</h1>
+                                        <p class="p-finance-bg-mod-text"><b>Your pipeline at a glance.</b> effortlessly connects your bank accounts with Odoo, automating the import of bank statements and transactions. This integration saves you time, reduces errors, and ensures your financial data is always up-to-date. No more manual data entry—Odoo handles it all, providing real-time insights into your cash flow and financial health.<br><br>
+                                        <b>Efficient organization</b> takes accuracy and efficiency to the next level. Using advanced algorithms, it automatically matches imported bank transactions with your invoices and payments. This intelligent system minimizes discrepancies, simplifies reconciliation, and enhances your financial operations. Experience the convenience and precision of Odoo's AI-powered financial tools, designed to streamline your accounting processes and support your business growth.</p>
+                                    </div>
+                                </div>
+
+                                    <h2 class="h2-finance-acc-text">"Seamless Follow-Ups: Never Miss One"</h2>
+                                    <p class="p-finance-acc-text">"With Odoo, managing follow-ups has never been easier. Schedule calls, meetings, mailings, or quotations effortlessly, and let Odoo take care of the rest. The platform automatically plans the next activity based on your sales script, ensuring that you stay on track with each prospect and customer. Odoo’s intelligent scheduling system helps you maintain consistency and follow through on every interaction, reducing the risk of missed opportunities. By automating your follow-up activities, Odoo allows you to focus on building relationships and closing deals rather than managing reminders. Its seamless integration into your sales workflow ensures that no follow-up slips through the cracks, enhancing your efficiency and effectiveness. Experience the power of automated follow-ups with Odoo and ensure that every potential lead receives timely and appropriate attention."</p>
+                                
+                                <div class="finance-erp-video sales-erp-video">
+                                    <img src="Assets/odoo/odoo_sales/odoo_crm/follow-up-example.jpg" class="img-thumbnail" alt="Vendor Bill" loading="lazy" style="">
+                                </div>
+
+                                <h2 class="h2-finance-acc-text">"Flawless Communication: <br>Prevent Miscommunication Instantly"</h2>
+                                    <p class="p-finance-acc-text">"Effective communication is crucial for success, and Odoo ensures that it remains flawless. Incoming emails are seamlessly integrated into your pipeline, automatically updating your records and ensuring that no important information is overlooked. By centralizing all interactions within a single platform, Odoo allows you to manage communication with your team and customers effortlessly. This streamlined approach guarantees easy access to all relevant information, reducing the risk of miscommunication. Whether you're handling client inquiries, internal discussions, or follow-ups, Odoo's unified system keeps everything organized and accessible. Experience the power of flawless communication with Odoo, where every message and interaction is efficiently managed and tracked. Enhance your workflow, prevent misunderstandings, and ensure that your team remains on the same page with ease. Odoo’s comprehensive communication tools pave the way for clearer, more effective interactions across your organization."</p>
+                                
+                                <div class="finance-erp-video">
+                                    <img src="Assets/odoo/odoo_sales/odoo_crm/effortless_communication.jpg" class="img-thumbnail" alt="Vendor Bill" loading="lazy" style="">
+                                </div>
+
+                                <h2 class="h2-finance-acc-text">"Seamlessly Integrates with Odoo Chat"</h2>
+                                <div class="finance-bussiness-module reduce-bussiness-module">
+                                    <div class="finance-bg-mod1 finance-expenses-mod1">
+                                        <div class="finance-expenses-grider">
+                                            <div class="finance-expenses-grider-in">
+                                                <img src="Assets/odoo/odoo_finance/odoo_expenses/mail.jpg" class="expenses-grider-width" alt="Vendor Bill" loading="lazy" style="">
+                                                <h1 class="h2-text-erp-case h1-fin-expenses">Email</h1>
+                                            </div>
+                                            <div class="finance-expenses-grider-in">
+                                                <img src="Assets/odoo/odoo_sales/odoo_crm/message-2.jpg" class="expenses-grider-width" alt="Vendor Bill" loading="lazy" style="">
+                                                <h1 class="h2-text-erp-case h1-fin-expenses">Live Chat</h1>
+                                            </div>
+                                            <div class="finance-expenses-grider-in">
+                                                <img src="Assets/odoo/odoo_sales/odoo_crm/vibrate.jpg" class="expenses-grider-width" alt="Vendor Bill" loading="lazy" style="">
+                                                <h1 class="h2-text-erp-case h1-fin-expenses">SMS</h1>
+                                            </div>
+                                            <div class="finance-expenses-grider-in">
+                                                <img src="Assets/odoo/odoo_sales/odoo_crm/call.jpg" class="expenses-grider-width" alt="Vendor Bill" loading="lazy" style="">
+                                                <h1 class="h2-text-erp-case h1-fin-expenses">VoIP</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="finance-bussiness-module">
+                                    <div class="finance-bg-mod1">
+                                        <h1 class="h1-finance-bg-txt">Instantly Create Beautiful Quotations in Two Clicks with Odoo</h1>
+                                        <p class="p-finance-bg-mod-text">With Odoo, crafting professional-looking quotations is quick and effortless. Our user-friendly interface allows you to create stunning quotes in no time. Simply select your products from the comprehensive catalog, and Odoo takes care of the formatting and design, ensuring that your quotations are both attractive and accurate.
+                                             The streamlined process eliminates the need for manual adjustments, saving you time and reducing errors. Whether you’re handling multiple client requests or preparing a detailed proposal, Odoo’s efficient system ensures that your quotations are ready to impress with just two clicks.<br>
+                                             Experience the convenience of instantly generating beautiful quotations. </p>
+                                    </div>
+                                    <div class="finance-bg-mod2">
+                                        <img src=" Assets/odoo/odoo_sales/odoo_crm/quotation.jpg" class="img-thumbnail" alt="Vendor Bill" loading="lazy" style="">
+                                    </div>
+                                </div>
+
+                                <div class="finance-bussiness-module">
+                                    <div class="finance-bg-mod1">
+                                          <img src="Assets/odoo/odoo_sales/odoo_crm/reporting.jpg" class="img-thumbnail" alt="Vendor Bill" loading="lazy" style="">
+                                    </div>
+                                    <div class="finance-bg-mod2">
+                                        <h1 class="h1-finance-bg-txt">"Make Your Sales Data Work for You: Turn Insights into Income"</h1>
+                                        <p class="p-finance-bg-mod-text">Odoo empowers you to turn your sales data into valuable income by leveraging accurate and real-time insights. With Odoo’s advanced analytics, you can delve deeper into your sales metrics, gaining a clearer understanding of your revenue forecasts, team performance, and more. <br>
+                                            The platform provides custom dashboards that allow you to visualize and interpret your data effectively, making it easier to make informed decisions. By analyzing these insights, you can identify trends, optimize strategies, and drive revenue growth. Odoo’s intuitive tools ensure that you have all the information you need to enhance your sales performance and achieve financial success.</p>
+                                    </div>
+                                </div>
+
+                                <!-- fature of odoo sales product -->
+                                <div class="odoo-features-functional">    
+                                    <h1 class="h2-text-erp-case h2-text-finance-case">Feature Of Odoo Expenses</h1>
+                                    <p class="p-work-main-text">No matter the size of your business, you can streamline all activities of your department under one roof. Automate processes, organize resources, and gain considerable ROI.</p>
+                                <div class="finance-feature-tab">
+                                    <div class="finance-feature-in">
+                                        <h1 class="h1-finance-feature-text">Scheduled Billing Automation</h1>
+                                        <p class="p-finance-feature-text">Odoo is pre-configured to address your country's* requirements: charts of accounts, taxes, country-specific reports, electronic invoicing, audit files, and fiscal positions to automatically apply the right tax rates and accounts.</p>
+                                    </div>
+
+                                    <div class="finance-feature-in">
+                                        <h1 class="h1-finance-feature-text">Transaction Reversal Management</h1>
+                                        <p class="p-finance-feature-text">Odoo is pre-configured to address your country's* requirements: charts of accounts, taxes, country-specific reports, electronic invoicing, audit files, and fiscal positions to automatically apply the right tax rates and accounts.</p>
+                                    </div>
+
+                                    <div class="finance-feature-in">
+                                        <h1 class="h1-finance-feature-text">Multi-Currency Transaction Handling</h1>
+                                        <p class="p-finance-feature-text">Odoo is pre-configured to address your country's* requirements: charts of accounts, taxes, country-specific reports, electronic invoicing, audit files, and fiscal positions to automatically apply the right tax rates and accounts.</p>
+                                    </div>
+
+                                    <div class="finance-feature-in">
+                                        <h1 class="h1-finance-feature-text">Comprehensive Sales Performance Analysis</h1>
+                                        <p class="p-finance-feature-text">Odoo is pre-configured to address your country's* requirements: charts of accounts, taxes, country-specific reports, electronic invoicing, audit files, and fiscal positions to automatically apply the right tax rates and accounts.</p>
+                                    </div>
+
+                                    <div class="finance-feature-in">
+                                        <h1 class="h1-finance-feature-text">Tailored Branding and Design for Invoices</h1>
+                                        <p class="p-finance-feature-text">Odoo is pre-configured to address your country's* requirements: charts of accounts, taxes, country-specific reports, electronic invoicing, audit files, and fiscal positions to automatically apply the right tax rates and accounts.</p>
+                                    </div>
+
+                                    <div class="finance-feature-in">
+                                        <h1 class="h1-finance-feature-text">Integration for Physical Mail Delivery Service</h1>
+                                        <p class="p-finance-feature-text">Odoo is pre-configured to address your country's* requirements: charts of accounts, taxes, country-specific reports, electronic invoicing, audit files, and fiscal positions to automatically apply the right tax rates and accounts.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="finance-services-in">
+                                    <h1 class="h2-text-erp-case h2-text-finance-case">How Can Leal Software Drive Business Success with Odoo Expense Solutions?</h1>
+                                    <p class="p-finance-head-text">Leal Software offers comprehensive expertise in Odoo invoice implementation, tailored to streamline your business's invoicing process. Our team of seasoned professionals ensures a seamless integration of Odoo's robust invoicing capabilities, allowing you to automate billing, manage payments, and track financial transactions efficiently.
+                                        By customizing the Odoo platform to fit your specific business needs, we help reduce errors, save time, and enhance accuracy. Our support extends beyond initial setup, providing ongoing assistance and training to ensure your team maximizes the benefits of Odoo's features. Partner with Leal Software to enhance your invoicing process, improve cash flow management, 
+                                        and drive overall business growth with our expert Odoo invoice implementation.</p>
+                                <div class="fin-services-in-ll">
+                                    <div class="fin-services-ccg">
+                                        <img src="Assets/odoo/odoo_feature/Odoo-Professionals.png" alt="image-logo" class="fin-services-ccg-width">
+                                            <h2 class="h2-fin-text-in">Spredsheet Professional</h2>
+                                            <p class="p-finance-bg-mod-text p-fin-mod-text">Odoo Accounting professionals provide expert solutions for financial management.</p>
+                                    </div>
+
+                                    <div class="fin-services-ccg">
+                                        <img src="Assets/odoo/odoo_feature/Implementations-.png" alt="image-logo" class="fin-services-ccg-width">
+                                            <h2 class="h2-fin-text-in">Spredsheet Consultant</h2>
+                                            <p class="p-finance-bg-mod-text p-fin-mod-text">Odoo Accounting professionals provide expert solutions for financial management.</p>
+                                    </div>
+                                        
+                                    <div class="fin-services-ccg">
+                                        <img src="Assets/odoo/odoo_feature/testing_implemention.png" alt="image-logo" class="fin-services-ccg-width">
+                                            <h2 class="h2-fin-text-in">Spreadsheet Implementation</h2>
+                                            <p class="p-finance-bg-mod-text p-fin-mod-text">Odoo Accounting professionals provide expert solutions for financial management.</p>
+                                    </div>
+
+                                    <div class="fin-services-ccg">
+                                        <img src="Assets/odoo/odoo_feature/Industries.png" alt="image-logo" class="fin-services-ccg-width">
+                                            <h2 class="h2-fin-text-in">Spredsheet Industries</h2>
+                                            <p class="p-finance-bg-mod-text p-fin-mod-text">Odoo Accounting professionals provide expert solutions for financial management.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="faq-container">
+                                <h2 class="h2-text-erp-case h2-text-faq-case">Frequently Asked Questions</h2>
+                                <div class="faq-item">
+                                    <div class="faq-question">What is Odoo Spredsheet</div>
+                                    <div class="faq-answer">Odoo Accounting is a comprehensive module within the Odoo ERP system designed to manage finances, including invoicing, payments, bank reconciliations, and financial reporting.</div>
+                                </div>
+                                <div class="faq-item">
+                                    <div class="faq-question">How do I set up Odoo Spredsheet?</div>
+                                    <div class="faq-answer">To set up, navigate to the Accounting module, configure your chart of accounts, set up bank accounts, and define fiscal years and periods.</div>
+                                </div>
+                                <div class="faq-item">
+                                    <div class="faq-question">Can Odoo Spredsheet handle multiple currencies?</div>
+                                    <div class="faq-answer"><b>Yes</b>, Odoo Accounting supports multi-currency transactions, allowing you to manage, record, and convert transactions in different currencies automatically.</div>
+                                </div>
+                                <div class="faq-item">
+                                    <div class="faq-question">How does Odoo handle Spredsheet?</div>
+                                    <div class="faq-answer">Odoo lets you create, send, and track invoices, automate recurring invoices, manage payment follow-ups, and reconcile payments with bank statements.</div>
+                                </div>
+                                <div class="faq-item">
+                                    <div class="faq-question">Is Odoo Spredsheet compliant with international standards?</div>
+                                    <div class="faq-answer"><b>Yes</b>, Odoo Accounting adheres to IFRS and GAAP standards, ensuring compliance with international accounting regulations for global businesses.</div>
+                                </div>
+                                <div class="faq-item">
+                                    <div class="faq-question">Can I integrate Odoo Spredsheet with other modules?</div>
+                                    <div class="faq-answer">Yes, Odoo Accounting integrates seamlessly with Sales, Purchases, Inventory, and CRM modules for a unified business management experience.</div>
+                                </div>
+                                <div class="faq-item">
+                                    <div class="faq-question">How do I generate financial reports in Odoo?</div>
+                                    <div class="faq-answer">Odoo offers built-in financial reports like balance sheets, profit and loss statements, cash flow statements, and customizable analytical reports.</div>
+                                </div>
+                                <div class="faq-item">
+                                    <div class="faq-question">How secure is my financial data in Odoo Spredsheet?</div>
+                                    <div class="faq-answer">Odoo ensures data security with role-based access control, encryption, and regular backups, protecting sensitive financial information.</div>
+                                </div>
+                                <div class="faq-item">
+                                    <div class="faq-question">Can I automate bank reconciliation in Odoo Spredsheet?</div>
+                                    <div class="faq-answer">Yes, Odoo provides automated bank reconciliation by importing bank statements, matching transactions, and reconciling differences efficiently.</div>
+                                </div>
+                                <div class="faq-item">
+                                    <div class="faq-question">What features does Odoo Expenses offer for spredsheet management?</div>
+                                    <div class="faq-answer">Odoo tracks expenses, manages employee expense claims, categorizes expenditures, and links expenses to specific projects or departments.</div>                                       
+                                </div>
+                            </div>
+                        </div>
+                        <!-- a code end for accounting finance -->
+
+                               
+                            <!-- a code start for invoicing -->
+                            <div id="tab-sales" class="finance-tabContent">
+                                <h2 class="h2-finance-acc-text">"Enhance Sales Efficiency with Instant Quotations"</h2>
+                                <p class="p-finance-acc-text">"Boost your sales efficiency with Odoo's powerful quotation builder, designed to create clean, professional, and interactive quotations in an instant. With Odoo, you can quickly generate detailed and visually appealing quotes that impress your clients and speed up the sales process. The user-friendly interface allows you to select products, customize prices, and add personalized notes effortlessly, ensuring that each quotation is tailored to your client's needs. Interactive features make it easy for clients to accept or request modifications, streamlining communication and reducing delays. By automating the quotation process, Odoo helps you save valuable time and focus on closing more deals. Experience the convenience and professionalism of instant quotations with Odoo."</p>
+                            
+                            <div class="finance-erp-video">
+                                <img src="Assets/odoo/odoo_sales/odoo_sales/hero_sales.jpg" class="img-thumbnail" alt="Vendor Bill" loading="lazy" style="">
+                            </div>
+
+                            <div class="finance-bussiness-module">
+                                <div class="finance-bg-mod1">
+                                    <h1 class="h1-finance-bg-txt">Instantly Create Beautiful Quotations in Two Clicks with Odoo</h1>
+                                    <p class="p-finance-bg-mod-text">With Odoo, crafting professional-looking quotations is quick and effortless. Our user-friendly interface allows you to create stunning quotes in no time. Simply select your products from the comprehensive catalog, and Odoo takes care of the formatting and design, ensuring that your quotations are both attractive and accurate.</p>
+                                    <img src="Assets/odoo/odoo_sales/odoo_sales/manage_02.jpg" class="img-thumbnail" alt="Vendor Bill" loading="lazy" style="">
+                                </div>
+                                <div class="finance-bg-mod2">
+                                    <img src="Assets/odoo/odoo_sales/odoo_sales/manage_01.jpg" class="img-thumbnail" alt="Vendor Bill" loading="lazy" style="">
+                                </div>
+                            </div>
+
+                            <h2 class="h2-finance-acc-text">"Streamline Common Orders Using Odoo's Automated Quote Templates"</h2>
+                            <p class="p-finance-acc-text">"Odoo's automated quote templates make managing common orders easier and more efficient than ever. By automatically applying the correct pricing and taxes for each customer, Odoo ensures accuracy and consistency in your quotations. 
+                                This powerful feature eliminates the need for repetitive, time-consuming tasks, allowing you to focus on what truly matters: selling. With Odoo, you can create and manage professional quotes in just a few clicks, saving time and reducing errors. The system's intelligent automation takes care of the details, so you don't have to, enabling you to provide a seamless and personalized experience for your clients. Whether you're handling frequent orders or special requests, Odoo's quote templates streamline your workflow and boost productivity."</p>
+                        
+                        <div class="finance-erp-video">
+                            <img src="Assets/odoo/odoo_sales/odoo_sales/quote_template.jpg" class="img-thumbnail" alt="Vendor Bill" loading="lazy" style="">
+                        </div>
+
+                        <div class="finance-bussiness-module">
+                            <div class="finance-bg-mod1">
+                                <h1 class="h1-finance-bg-txt">Streamline Deal Closures with Odoo's Customer Portal</h1>
+                                <p class="p-finance-bg-mod-text">Empower your customers with Odoo's Customer Portal, where they can easily access their quotations, sales orders, delivery orders, and more. This self-service feature allows clients to manage their interactions with your business at their convenience, reducing the need for back-and-forth communication and enhancing their overall experience. By enabling online payments, Odoo helps you save valuable time and streamline your financial processes.<br><br>
+                                 Additionally, the portal supports e-signatures on quotations, contracts, and other PDF documents, accelerating deal closures and ensuring a seamless workflow. With everything accessible in one place, your customers can quickly and efficiently handle their transactions, leaving you more time to focus on growing your business. Experience the benefits of a more efficient, customer-centric approach with Odoo's Customer Portal, and watch your sales processes become faster and more effective.</p>
+                            </div>
+                            <div class="finance-bg-mod2">
+                                <img src="Assets/odoo/odoo_sales/odoo_sales/customer_portal_01.jpg" class="img-thumbnail" alt="Vendor Bill" loading="lazy" style="">
+                            </div>
+                        </div>
+
+                        <div class="finance-bussiness-module">
+                            <div class="finance-bg-mod1">
+                                <img src="Assets/odoo/odoo_sales/odoo_sales/qualified_leads.jpg" class="img-thumbnail" alt="Vendor Bill" loading="lazy" style="">
+                            </div>
+                            <div class="finance-bg-mod2">
+                                <h1 class="h1-finance-bg-txt">Streamline Deal Closures with Odoo's Customer Portal</h1>
+                                <p class="p-finance-bg-mod-text">Empower your customers with Odoo's Customer Portal, where they can easily access their quotations, sales orders, delivery orders, and more. This self-service feature allows clients to manage their interactions with your business at their convenience, reducing the need for back-and-forth communication and enhancing their overall experience. By enabling online payments, Odoo helps you save valuable time and streamline your financial processes.</p>
+                                 <img src="Assets/odoo/odoo_sales/odoo_sales/ai_powered.jpg" class="img-thumbnail" alt="Vendor Bill" loading="lazy" style="">
+                            </div>
+                        </div>
+                        <div class="finance-bussiness-module">
+                            <div class="finance-bg-mod1">
+                                <img src="Assets/odoo/odoo_sales/odoo_sales/unique_pricing.jpg" class="img-thumbnail" alt="Vendor Bill" loading="lazy" style="">
+                            </div>
+                            <div class="finance-bg-mod2">
+                                <h1 class="h1-finance-bg-txt">Odoo Comprehensive Product Management</h1>
+                                <p class="p-finance-bg-mod-text">Set up unique product pricing, variants, and categories effortlessly with Odoo. Seamlessly integrate your product management with eCommerce, Inventory, and Manufacturing modules. Odoo ensures complete control and synchronization across all business operations, enhancing efficiency and accuracy in managing your products. Optimize your workflow with Odoo's comprehensive product management solutions, ensuring streamlined processes and increased profitability for your business.</p>
+                            </div>
+                        </div>
+                        <!-- fature of odoo product -->
+                        <div class="odoo-features-functional">    
+                            <h1 class="h2-text-erp-case h2-text-finance-case">Feature Of Odoo Expenses</h1>
+                            <p class="p-work-main-text">No matter the size of your business, you can streamline all activities of your department under one roof. Automate processes, organize resources, and gain considerable ROI.</p>
+                        <div class="finance-feature-tab">
+                            <div class="finance-feature-in">
+                                <h1 class="h1-finance-feature-text">Scheduled Billing Automation</h1>
+                                <p class="p-finance-feature-text">Odoo is pre-configured to address your country's* requirements: charts of accounts, taxes, country-specific reports, electronic invoicing, audit files, and fiscal positions to automatically apply the right tax rates and accounts.</p>
+                            </div>
+
+                            <div class="finance-feature-in">
+                                <h1 class="h1-finance-feature-text">Transaction Reversal Management</h1>
+                                <p class="p-finance-feature-text">Odoo is pre-configured to address your country's* requirements: charts of accounts, taxes, country-specific reports, electronic invoicing, audit files, and fiscal positions to automatically apply the right tax rates and accounts.</p>
+                            </div>
+
+                            <div class="finance-feature-in">
+                                <h1 class="h1-finance-feature-text">Multi-Currency Transaction Handling</h1>
+                                <p class="p-finance-feature-text">Odoo is pre-configured to address your country's* requirements: charts of accounts, taxes, country-specific reports, electronic invoicing, audit files, and fiscal positions to automatically apply the right tax rates and accounts.</p>
+                            </div>
+
+                            <div class="finance-feature-in">
+                                <h1 class="h1-finance-feature-text">Comprehensive Sales Performance Analysis</h1>
+                                <p class="p-finance-feature-text">Odoo is pre-configured to address your country's* requirements: charts of accounts, taxes, country-specific reports, electronic invoicing, audit files, and fiscal positions to automatically apply the right tax rates and accounts.</p>
+                            </div>
+
+                            <div class="finance-feature-in">
+                                <h1 class="h1-finance-feature-text">Tailored Branding and Design for Invoices</h1>
+                                <p class="p-finance-feature-text">Odoo is pre-configured to address your country's* requirements: charts of accounts, taxes, country-specific reports, electronic invoicing, audit files, and fiscal positions to automatically apply the right tax rates and accounts.</p>
+                            </div>
+
+                            <div class="finance-feature-in">
+                                <h1 class="h1-finance-feature-text">Integration for Physical Mail Delivery Service</h1>
+                                <p class="p-finance-feature-text">Odoo is pre-configured to address your country's* requirements: charts of accounts, taxes, country-specific reports, electronic invoicing, audit files, and fiscal positions to automatically apply the right tax rates and accounts.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="finance-services-in">
+                            <h1 class="h2-text-erp-case h2-text-finance-case">How Can Leal Software Drive Business Success with Odoo Expense Solutions?</h1>
+                            <p class="p-finance-head-text">Leal Software offers comprehensive expertise in Odoo invoice implementation, tailored to streamline your business's invoicing process. Our team of seasoned professionals ensures a seamless integration of Odoo's robust invoicing capabilities, allowing you to automate billing, manage payments, and track financial transactions efficiently.
+                                By customizing the Odoo platform to fit your specific business needs, we help reduce errors, save time, and enhance accuracy. Our support extends beyond initial setup, providing ongoing assistance and training to ensure your team maximizes the benefits of Odoo's features. Partner with Leal Software to enhance your invoicing process, improve cash flow management, 
+                                and drive overall business growth with our expert Odoo invoice implementation.</p>
+                        <div class="fin-services-in-ll">
+                            <div class="fin-services-ccg">
+                                <img src="Assets/odoo/odoo_feature/Odoo-Professionals.png" alt="image-logo" class="fin-services-ccg-width">
+                                    <h2 class="h2-fin-text-in">Spredsheet Professional</h2>
+                                    <p class="p-finance-bg-mod-text p-fin-mod-text">Odoo Accounting professionals provide expert solutions for financial management.</p>
+                            </div>
+
+                            <div class="fin-services-ccg">
+                                <img src="Assets/odoo/odoo_feature/Implementations-.png" alt="image-logo" class="fin-services-ccg-width">
+                                    <h2 class="h2-fin-text-in">Spredsheet Consultant</h2>
+                                    <p class="p-finance-bg-mod-text p-fin-mod-text">Odoo Accounting professionals provide expert solutions for financial management.</p>
+                            </div>
+                                
+                            <div class="fin-services-ccg">
+                                <img src="Assets/odoo/odoo_feature/testing_implemention.png" alt="image-logo" class="fin-services-ccg-width">
+                                    <h2 class="h2-fin-text-in">Spreadsheet Implementation</h2>
+                                    <p class="p-finance-bg-mod-text p-fin-mod-text">Odoo Accounting professionals provide expert solutions for financial management.</p>
+                            </div>
+
+                            <div class="fin-services-ccg">
+                                <img src="Assets/odoo/odoo_feature/Industries.png" alt="image-logo" class="fin-services-ccg-width">
+                                    <h2 class="h2-fin-text-in">Spredsheet Industries</h2>
+                                    <p class="p-finance-bg-mod-text p-fin-mod-text">Odoo Accounting professionals provide expert solutions for financial management.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-container">
+                        <h2 class="h2-text-erp-case h2-text-faq-case">Frequently Asked Questions</h2>
+                        <div class="faq-item">
+                            <div class="faq-question">What is Odoo Spredsheet</div>
+                            <div class="faq-answer">Odoo Accounting is a comprehensive module within the Odoo ERP system designed to manage finances, including invoicing, payments, bank reconciliations, and financial reporting.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">How do I set up Odoo Spredsheet?</div>
+                            <div class="faq-answer">To set up, navigate to the Accounting module, configure your chart of accounts, set up bank accounts, and define fiscal years and periods.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">Can Odoo Spredsheet handle multiple currencies?</div>
+                            <div class="faq-answer"><b>Yes</b>, Odoo Accounting supports multi-currency transactions, allowing you to manage, record, and convert transactions in different currencies automatically.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">How does Odoo handle Spredsheet?</div>
+                            <div class="faq-answer">Odoo lets you create, send, and track invoices, automate recurring invoices, manage payment follow-ups, and reconcile payments with bank statements.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">Is Odoo Spredsheet compliant with international standards?</div>
+                            <div class="faq-answer"><b>Yes</b>, Odoo Accounting adheres to IFRS and GAAP standards, ensuring compliance with international accounting regulations for global businesses.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">Can I integrate Odoo Spredsheet with other modules?</div>
+                            <div class="faq-answer">Yes, Odoo Accounting integrates seamlessly with Sales, Purchases, Inventory, and CRM modules for a unified business management experience.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">How do I generate financial reports in Odoo?</div>
+                            <div class="faq-answer">Odoo offers built-in financial reports like balance sheets, profit and loss statements, cash flow statements, and customizable analytical reports.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">How secure is my financial data in Odoo Spredsheet?</div>
+                            <div class="faq-answer">Odoo ensures data security with role-based access control, encryption, and regular backups, protecting sensitive financial information.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">Can I automate bank reconciliation in Odoo Spredsheet?</div>
+                            <div class="faq-answer">Yes, Odoo provides automated bank reconciliation by importing bank statements, matching transactions, and reconciling differences efficiently.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">What features does Odoo Expenses offer for spredsheet management?</div>
+                            <div class="faq-answer">Odoo tracks expenses, manages employee expense claims, categorizes expenditures, and links expenses to specific projects or departments.</div>                                       
+                        </div>
+                    </div>
+                </div>
+                <!-- to end code of odoo finance spredsheet -->
+
+
+
+
+
+                            <!-- a code start for expenses -->
+                            <div id="tab-Shop" class="finance-tabContent">
+
+                            </div>
+                            <!-- to end code of odoo finance expense -->
+
+                            <!-- to start code of spredsheet -->
+                            <div id="tab-Restaurant" class="finance-tabContent">
+
+                            </div>
+                            <!-- to end code of odoo finance spredsheet -->
+
+                            <!-- a code start for odoo finance documents  -->
+                            <div id="tab-subscription" class="finance-tabContent">
+
+                            </div>
+                            <!-- to end code of odoo finance documents -->
+
+                            <!-- to start code for odoo finance sign -->
+                            <div id="tab-rental" class="finance-tabContent">
+
+                            </div>
+                            <!-- to end code of odoo finance sign-->
+                    </div>
+                </div>
+            </section>
+            <!-- to end code of odoo finance section-->
+
+
+            <!-- start section - footer page -->
+            <section class="page-footer">
+                <div class="page-footer-in">
+                    <div class="page-footer-last">
+                        <div class="page-logo-lorem first-extra-footer-width">
+                            <h3 class="h3-footer-title-last-logo">Logo</h3>
+                            <p class="p-footer-text-in">discover our premier mobile app development services, delivering end-to-end solutions for iOS and Android platforms. From concept to launch, our expert team offers consultation, innovative design, robust development, rigorous testing, and ongoing support. With a focus on user-centricity and client objectives. With a focus on user-centricity and client objectives.</p>
+                        </div>
+                
+                            <div class="footer-useful-pages widht-same-last-footer">
+                                <h3 class="h3-footer-title-last-logo">Useful Pages</h3>
+                                <nav class="nav-first-last">
+                                    <ul class="nav-lists" >
+                                        <li><a href="index.html">HOME</a></li>
+                                        <li><a href="services.html">SERVICES</a></li>
+                                        <li><a href="#search">PRODUCT</a></li>
+                                        <li><a href="research.html">RESERACH</a></li>
+                                        <li><a href="about.html">ABOUT US</a></li>
+                                        <li><a href="career.html">CAREER</a></li>
+                                        <li><a href="contact.html">CONTACT US</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                
+                            <div class="footer-quick-links widht-same-last-footer">
+                                <h3 class="h3-footer-title-last-logo">Quick Links</h3>
+                                <nav class="nav-first-last">
+                                    <ul class="nav-lists" >
+                                        <li><a href="index.html">HOME</a></li>
+                                        <li><a href="services.html">SERVICES</a></li>
+                                        <li><a href="#search">PRODUCT</a></li>
+                                        <li><a href="research.html">RESERACH</a></li>
+                                        <li><a href="about.html">ABOUT US</a></li>
+                                        <li><a href="career.html">CAREER</a></li>
+                                        <li><a href="contact.html">CONTACT US</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                
+                            <div class="footer-touch-link first-extra-footer-width">
+                            <h3 class="h3-footer-title-last-logo">Get In Touch</h3>
+                
+                            <div class="footer-info-about">
+                                <p><i class="fa3 fa-map-marker"></i><span class="span-footer-info"> Green Life Hinjewadi Phase-1 Pune</span></p>
+                                <p><i class="fa3 fa-envelope"></i><span class="span-footer-info">career@lealsolution.com</span></p>
+                                <p><i class="fa3 fa-phone"></i><span class="span-footer-info">+91 9876543210</span></p>
+                                <p><i class="fa3 fa-certificate"></i><span class="span-footer-info">Social-Media</span></p>
+                            </div>
+                
+                            <div class="footer-social-media">
+                                <a href="https://twitter.com" class="my-footer-link"><i class="fa4 fa-twitter footer-same-box"></i></a>
+                                <a href="https://linkdin.com" class="my-footer-link"><i class="fa4 fa-linkedin footer-same-box"></i></a>
+                                <a href="https://instagram.com" class="my-footer-link"><i class="fa4 fa-instagram footer-same-box"></i></a>
+                                <a href="https://youtube.com" class="my-footer-link"><i class="fa4 fa-youtube footer-same-box"></i></a>
+                                <a href="https://facebook.com" class="my-footer-link"><i class="fa4 fa-facebook footer-same-box"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="header-horizontal-line-big"></div>
+
+                    <div class="footer-copyright">
+                        <div class="footer-copyright-data">
+                            <p class="p-footer-text-copyright">
+                                © 2024 Leal Software Solution. All Rights Reserved.    Privacy Policy   |   Cookie Policy  |   Cookie Preferences<br>
+                                Disclaimers:<br>
+                                GARTNER is a registered trademark and service mark of Gartner, Inc. and/or its affiliates in the U.S. and internationally, Magic Quadrant is a registered trademark of Gartner, Inc. and/or its affiliates and is used herein with permission. All rights reserved.
+                                Gartner does not endorse any vendor, product or service depicted in its research publications and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s Research & Advisory organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-map-area-header">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.4882153385047!2d73.73456617404823!3d18.597098066834434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bb0c38b73eff%3A0x33e7681bbea9508d!2sGreen%20life%20society%20B-%20Wing!5e0!3m2!1sen!2sin!4v1714454938402!5m2!1sen!2sin" 
+                        width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                    </div>
+                </div>
+                    <button onclick="topFunction()" id="top_myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+            </section>
+            <!-- end section - footer page -->
+
+
+
+
+          <!-- a code start for to be button working on tab button -->
+          <script>
+            // Open the default tab on page load
+            document.getElementById("defaultOpen").click();
+    
+            function openTab(evt, tabName) {
+                // Get all elements with class="tabContent" and hide them
+                var tabContent = document.getElementsByClassName("finance-tabContent");
+                for (var i = 0; i < tabContent.length; i++) {
+                    tabContent[i].style.display = "none";
+                }
+    
+                // Get all elements with class="tabButton" and remove the class "active"
+                var tabButton = document.getElementsByClassName("finance-tabButton");
+                for (var i = 0; i < tabButton.length; i++) {
+                    tabButton[i].className = tabButton[i].className.replace(" active", "");
+                }
+    
+                // Show the current tab, and add an "active" class to the button that opened the tab
+                document.getElementById(tabName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+        </script>
+        <!-- a code end for tab button  -->
+
+        <!-- a code for faq question -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var questions = document.querySelectorAll('.faq-question');
+    
+                questions.forEach(function (question) {
+                    question.addEventListener('click', function () {
+                        var answer = this.nextElementSibling;
+                        var isOpen = answer.style.display === 'block';
+    
+                        // Close all answers
+                        document.querySelectorAll('.faq-answer').forEach(function (answer) {
+                            answer.style.display = 'none';
+                        });
+    
+                        // Toggle the clicked answer
+                        if (!isOpen) {
+                            answer.style.display = 'block';
+                        }
+                    });
+                });
+            });
+        </script>
+        <!-- a code end faq question -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         </body>
+         </html>
