@@ -4606,6 +4606,13 @@ button.tablinks1 {
     width: 25%;
     margin: 20px;
 }
+.h1-finance-bg-text {
+    color: black;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 30px 0px 30px 15px;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
