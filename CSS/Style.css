@@ -4315,7 +4315,7 @@ button.tablinks1 {
 .finance-erp-video
 {
     text-align: center;
-    padding-top: 100px;
+    padding: 100px 0px 50px 0px;
 }
 .finance-bussiness-module {
     display: flex;
@@ -4558,6 +4558,10 @@ button.tablinks1 {
 .finance-expenses-grider {
     display: flex;
 }
+.finance-expenses-grider-in {
+    width: 100%;
+    margin: 0px 20px;
+}
 .finance-expenses-mod1 {
     width: 100%;
     padding-left: 200px;
@@ -4617,7 +4621,34 @@ button.tablinks1 {
 .sales-erp-video {
     margin: 0px 150px 70px 150px;
 }
-
+.sales-sale-width {
+    width: 81%;
+    height: 70%;
+    margin-left: 50px;
+    box-shadow: 5px 5px 5px 0 #d5d5d5;
+}
+.h1-sales-bg-text {
+    color: #040404;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px 0px 5px 0px;
+}
+.p-sales-bg-mod-text {
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    padding: 0px 5px;
+}
+.finance-sales-mod1 {
+    width: 100%;
+    padding-left: 50px;
+}
+.p-sales-bg-text {
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;
+    padding: 0px 0px;
+}
 
 
 
