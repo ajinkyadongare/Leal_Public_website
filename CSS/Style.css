@@ -4657,6 +4657,17 @@ button.tablinks1 {
     border: var(--bs-border-width) solid var(--bs-border-color);
     border-radius: var(--bs-border-radius);
 }
+.website-img-thumbnail {
+    max-width: 70%;
+    margin-left: 100px;
+}
+.finance-website-h {
+    height: 600px;
+}
+.website-forum-thumbnail {
+    max-width: 45%;
+}
+
 
 
 
