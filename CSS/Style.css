@@ -4681,6 +4681,22 @@ button.tablinks1 {
     width: 118%;
     height: 86%;
 }
+.supply-sale-width {
+    width: 88%;
+    height: 92%;
+    margin-left: 50px;
+    box-shadow: 5px 5px 5px 0 #d5d5d5;
+}
+.maintenance-img-thumbnail {
+    max-width: 38%;
+    margin-left: 170px;
+}
+.quality-img-thumbnail {
+    width: 80%;
+    height: 85%;
+    margin-left: 50px;
+    box-shadow: 5px 5px 5px 0 #d5d5d5;
+}
 
 
 
