@@ -4618,6 +4618,8 @@ button.tablinks1 {
     font-family: 'Montserrat', sans-serif;
 }
 /* a code end for odoo finance page accounting, invoicing, expense, spredsheet, documents, sign */
+
+/* a code start for website "to done tab page odoo_website inside of website_builder, eCommerce, blog, forum, live-chat, eLearning" */
 .sales-erp-video {
     margin: 0px 150px 70px 150px;
 }
@@ -4667,8 +4669,18 @@ button.tablinks1 {
 .website-forum-thumbnail {
     max-width: 45%;
 }
+/* a code end of website "to done tab page odoo_website inside of website_builder, eCommerce, blog, forum, live-chat, eLearning" */
 
-
+/* a code start for supplay chain- inventory, manufacturing PLM purchase maintenance quality */
+.supply-img-thumbnail {
+    max-width: 50%;
+    height: 425px;
+    margin-left: 200px;
+}
+.mn-img-thumbnail {
+    width: 118%;
+    height: 86%;
+}
 
 
 
