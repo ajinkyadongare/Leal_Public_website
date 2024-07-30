@@ -4633,13 +4633,15 @@ button.tablinks1 {
     color: #040404;
     font-size: 18px;
     text-align: center;
-    padding: 25px 0px 5px 0px;
+    margin: 0px;
+    padding: 25px 0px 0px 0px;
 }
 .p-sales-bg-mod-text {
     font-size: 15px;
     text-align: center;
     line-height: 25px;
-    padding: 0px 5px;
+    padding: 20px 5px;
+    margin: 0px
 }
 .finance-sales-mod1 {
     width: 100%;
@@ -4696,6 +4698,15 @@ button.tablinks1 {
     height: 85%;
     margin-left: 50px;
     box-shadow: 5px 5px 5px 0 #d5d5d5;
+}
+.marketing-img-thumbnail {
+    max-width: 50%;
+    margin-left: 130px;
+}
+.p-website-bg-mod-text {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 27px 34px;
 }
 
 
