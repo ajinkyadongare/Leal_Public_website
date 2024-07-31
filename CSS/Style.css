@@ -1,3 +1,11 @@
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: var(--bs-body-bg);
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    max-width: 100%;
+    height: auto;
+}
 .section-navbar {
     height: 120px;
     top: 0px;
@@ -4707,6 +4715,14 @@ button.tablinks1 {
     font-size: 16px;
     line-height: 25px;
     padding: 27px 34px;
+}
+.services-img-thumbnail {
+    max-width: 50%;
+    margin-left: 130px;
+    border: 1px solid #e1e1e1;
+}
+.appointment-img-thumbnail {
+    max-width: 40%;
 }
 
 
