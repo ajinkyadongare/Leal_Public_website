@@ -5374,6 +5374,9 @@ button.tablinks1 {
     max-width: 46%;
     margin-left: 200px;
 }
+.finance-tabContent {
+    display: none;
+}
 
 /* end code of odoo all tab pages */
 

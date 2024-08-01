@@ -77,7 +77,7 @@
                     sizes. Empower your team and drive growth with Odoo’s versatile and efficient platform.</p>
 
                 <div class="finance-tabContainer">
-                    <button class="finance-tabButton" onclick="openTab(event, 'tab-project')"id="defaultOpen">Project</button>
+                    <button class="finance-tabButton" onclick="openTab(event, 'tab-project')">Project</button>
                     <button class="finance-tabButton" onclick="openTab(event, 'tab-timesheets')">TimeSheets</button>
                     <button class="finance-tabButton" onclick="openTab(event, 'tab-filled-service')">Filled Service</button>
                     <button class="finance-tabButton" onclick="openTab(event, 'tab-helpdesk')">Helpdesk</button>
@@ -1791,6 +1791,50 @@
         });
     </script>
     <!-- a code end faq question -->
+
+    <!-- a code for tab open from another page -->
+    <script>
+        function openTab(evt, tabName) {
+            var tabContent = document.getElementsByClassName("finance-tabContent");
+            var tabButton = document.getElementsByClassName("finance-tabButton");
+
+            // Hide all tab content
+            for (var i = 0; i < tabContent.length; i++) {
+                tabContent[i].style.display = "none";
+            }
+
+            // Remove "active" class from all tab buttons
+            for (var i = 0; i < tabButton.length; i++) {
+                tabButton[i].className = tabButton[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get the URL parameter for the tab
+            const urlParams = new URLSearchParams(window.location.search);
+            const tabToOpen = urlParams.get('tab');
+
+            // If a tab is specified in the URL, open it
+            if (tabToOpen) {
+                // Open the specified tab
+                document.getElementById(tabToOpen).style.display = "block";
+                const button = document.querySelector(`.finance-tabButton[onclick*='${tabToOpen}']`);
+                if (button) {
+                    button.className += " active";
+                }
+            } else {
+                // If no tab specified, optionally open the default tab or do nothing
+                document.getElementById("tab-discuss").style.display = "block";
+                document.getElementById("button-discuss").className += " active";
+            }
+        });
+    </script>
+    <!-- a code end of tab open from another page -->
+
 </body>
 
 </html>
