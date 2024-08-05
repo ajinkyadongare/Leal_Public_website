@@ -4129,9 +4129,9 @@ i.fa.fa-quote-right.quote-right-circle {
     background-repeat: no-repeat;
     background-image: url(../Assets/odoo/odoo_business-management-software.jpg);
     background-size: contain;
-    background-position: 50% 50%;
+    background-position: 50% 100%;
     width: 100%;
-    height: 500px;
+    height: 475px;
     opacity: 1;
     margin-top: 95px;
     position: relative;
@@ -4146,14 +4146,14 @@ i.fa.fa-quote-right.quote-right-circle {
 }
 
 .h4-odoo-header-main {
-    color: #328cd9;
+    color: #7a3b6a;
     width: 75%;
     font-size: 20pt;
     line-height: 17pt;
-    font-weight: 700;
+    font-weight: bold;
     word-spacing: 3px;
-    text-transform: uppercase;
     padding: 100px 0px 0px 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .h4-odoo-header-txt {
@@ -4164,6 +4164,7 @@ i.fa.fa-quote-right.quote-right-circle {
     word-spacing: 5px;
     letter-spacing: 0px;
     padding: 80px 0px 0px 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .h4-odoo-header-text-in {
@@ -4172,58 +4173,14 @@ i.fa.fa-quote-right.quote-right-circle {
     line-height: 17pt;
     color: rgb(0 0 0);
     font-weight: 500;
-    padding: 40px 0px 0px 50px;
-    word-spacing: 3px;
+    padding: 25px 0px 0px 50px;
+    word-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .odoo-cloud-middle {
     height: 790px;
     width: 100%;
-}
-
-.odoo-cloud-middle-in {
-    display: flex;
-    margin: 0px 40px 0px 40px;
-}
-
-.odoo-middle-container-one {
-    width: 60%;
-    padding: 0px 25px;
-}
-
-.h1-odoo-container-text {
-    width: 100%;
-    font-size: 15pt;
-    line-height: 17pt;
-    color: #f94a24;
-    font-weight: bolder;
-    padding: 20px 0px 20px 0px;
-    word-spacing: 3px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.p-odoo-conatiner-text {
-    font-size: 15px;
-    line-height: 27px;
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    padding: 0px 8px 10px 0px;
-    word-spacing: 3px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.odoo-middle-container-two {
-    width: 40%;
-}
-
-.odoo-services-width {
-    width: 100%;
-    height: 320px;
-    padding: 25px;
-    border-radius: 0px;
-    box-shadow: 2px 2px 5px 0 #ddd;
-    margin-top: 25px;
 }
 
 .odoo-images-work {
@@ -4267,7 +4224,7 @@ i.fa.fa-quote-right.quote-right-circle {
 }
 
 .odoo-tab button.active {
-    background-color: #328cd9;
+    background-color: #a55991;
     border-radius: 0px;
     color: white;
 }
@@ -4300,7 +4257,7 @@ button.tablinks1 {
     flex-shrink: 0;
     display: flex;
     position: relative;
-    background-color: #092f4f !important;
+    background-color: #7a3b6a !important;
 }
 
 .odoo-slide-mark {
@@ -4320,6 +4277,10 @@ button.tablinks1 {
     color: rgb(222, 235, 52);
     word-spacing: 3px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.h2-txt-erp-min {
+    color: #7a3b6a;
 }
 
 /* end a section odoo function  */
@@ -4384,7 +4345,7 @@ button.tablinks1 {
 
 .h2-erp-technology-in {
     font-size: 22px;
-    color: #598cff;
+    color: #7a3b6a;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
     padding: 50px 0px 30px 92px;
@@ -4428,6 +4389,7 @@ button.tablinks1 {
     border-radius: 5px;
     padding: 20px;
     height: 355px;
+    border: 1px solid #e9e9e9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -4443,6 +4405,7 @@ button.tablinks1 {
 
 .a-erp-tools-text {
     text-decoration: none;
+    color: #7a3b6a
 }
 
 .erp-li-tools {
@@ -4498,246 +4461,77 @@ button.tablinks1 {
 
 /* end section of erp tools*/
 
-.erp-main-value-list {
-    justify-content: center;
-    align-items: center;
-    background-color: #f5f5f5;
-    margin: 0;
-    height: 800px;
-}
-
-.erp-grider-port {
-    padding: 70px 50px 0px 50px;
+.unique-value-list {
+    content: "";
+    top: 0;
+    left: 0;
+    display: inline-block;
     width: 100%;
-    display: grid;
-    gap: 50px 30px;
-    grid-template-columns: repeat(8, 1fr);
-}
-
-.application-erp-list {
-    height: 120px;
+    height: auto;
+    background-image: url(../Assets/odoo/odoo_home.jpg);
+    background-position: center center;
+    background-repeat: repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    border-radius: 5px;
-    background-color: white;
-    padding-top: 10px;
-    box-shadow: 2px 2px 5px 0 #d5d5d5;
+    padding-top: 100px;
 }
 
-.erp-count-icon {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
+.unique-grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 10px;
+    max-width: 1000px;
+}
+
+.unique-grid-item {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    margin: 10px;
+    padding: 10px;
     position: relative;
+    box-shadow: 1px 2px 4px 0 #d5d5d5;
 }
 
-.p-erp-app-text {
-    font-size: 14px;
-    line-height: 0px;
-    color: rgb(0, 0, 0);
-    font-weight: 800;
-    margin: 0px;
-    padding-top: 20px;
+.unique-grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    transition: transform 0.3s ease;
+}
+
+.unique-grid-item:hover img {
+    transform: scale(1.1);
+}
+
+.unique-image-name {
+    margin-top: 10px;
+    color: rgb(68, 68, 68);
+    font-weight: bold;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.erp-a-tag-link {
-    text-decoration: none;
-    color: #057acd;
+#unique-viewAllApps {
+    display: block;
+    margin: 25px 0px 20px 0px;
+    padding: 10px 20px;
+    background-color :#7a3b6a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
 }
 
-.value-accounting {
-    background: #f5a623;
-    position: relative;
-}
-
-.value-accounting:before,
-.value-accounting:after {
-    content: '';
-    position: absolute;
-    border-radius: 50%;
-}
-
-.value-accounting:before {
-    background: #ffecb3;
-    width: 20px;
-    height: 20px;
-    top: 10px;
-    left: 10px;
-}
-
-.value-accounting:after {
-    background: #d35400;
-    width: 15px;
-    height: 15px;
-    top: 20px;
-    left: 20px;
-}
-
-.value-knowledge {
-    background: #8e44ad;
-    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
-}
-
-.value-sign {
-    background: #16a085;
-    clip-path: polygon(0 0, 100% 0, 50% 100%);
-}
-
-.value-crm {
-    background: #3498db;
-    clip-path: polygon(50% 0%, 100% 100%, 50% 50%, 0% 100%);
-}
-
-.value-studio {
-    background: #c0392b;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
-
-.value-subscriptions {
-    background: #27ae60;
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-}
-
-.value-rental {
-    background: #f39c12;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
-
-.value-pos {
-    background: #d35400;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
-
-.value-discuss {
-    background: #e74c3c;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
-
-.value-documents {
-    background: #2980b9;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-}
-
-.value-project {
-    background: #8e44ad;
-    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
-}
-
-.value-timesheets {
-    background: #16a085;
-    clip-path: circle(50% at 50% 50%);
-}
-
-.value-field-service {
-    background: #3498db;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
-
-.value-planning {
-    background: #2ecc71;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
-
-.value-helpdesk {
-    background: #e67e22;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
-
-.value-website {
-    background: #9b59b6;
-    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
-}
-
-.value-social-marketing {
-    background: #e74c3c;
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-}
-
-.value-email-marketing {
-    background: #f39c12;
-    clip-path: circle(50% at 50% 50%);
-}
-
-.value-purchase {
-    background: #9b59b6;
-    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
-}
-
-.value-inventory {
-    background: #e67e22;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
-
-.value-manufacturing {
-    background: #2ecc71;
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-}
-
-.value-sales {
-    position: relative;
-}
-
-.value-sales:before,
-.value-sales:after {
-    content: '';
-    position: absolute;
-    border-radius: 50%;
-}
-
-.value-sales:before {
-    background: #0bb4e7;
-    width: 40px;
-    height: 40px;
-    top: 10px;
-    left: 5px;
-}
-
-.value-sales:after {
-    background: #f94a24;
-    width: 23px;
-    height: 23px;
-    top: 33px;
-    left: 25px;
-}
-
-.value-hr {
-    background: #e74c3c;
-    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
-}
-
-.value-dashboard {
-    background: #1abc9c;
-    position: relative;
-}
-
-.value-dashboard:before,
-.value-dashboard:after {
-    content: '';
-    position: absolute;
-    border-radius: 50%;
-}
-
-.value-dashboard:before {
-    background: #e4fc0b;
-    width: 20px;
-    height: 20px;
-    top: 10px;
-    left: 10px;
-}
-
-.value-dashboard:after {
-    background: #2700d3;
-    width: 15px;
-    height: 15px;
-    top: 20px;
-    left: 20px;
+.h2-finance-odoo-text {
+    margin: 50px 0px 30px 0px;
 }
 
 /*  */
@@ -5374,6 +5168,7 @@ button.tablinks1 {
     max-width: 46%;
     margin-left: 200px;
 }
+
 .finance-tabContent {
     display: none;
 }
