@@ -2,15 +2,32 @@
     --main-color: #3498db; /* Example color */
 }
 .section-navbar {
-    height: 120px;
-    top: 0px;
-    width: 100%;
     z-index: 9999;
     position: fixed;
-    background-color: #ffffff !important;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-image: url(../Assets/odoo/theme-hero.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment: fixed;
     box-shadow: 4px 2px 10px 0 #6e6e6e;
 }
-
+.section-nav-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#10417a !important;
+}
+.h2-section-nav-text {
+    font-size: 17px;
+    line-height: 22pt;
+    color: rgb(255 255 255);
+    word-spacing: 1px;
+    padding: 3px;
+}
 .div-nav {
     display: flex;
     width: 100%;
@@ -4055,13 +4072,13 @@ i.fa.fa-quote-right.quote-right-circle {
 .h3-blogs-sec-text {
     font-size: 20px;
     font-weight: 800;
-    color: #f94a24;
+    color: #3498db;
     font-family: 'Montserrat', sans-serif;
 }
 
 .h2-blogs-technology-in {
     font-size: 25px;
-    color: #598cff;
+    color: #3498db;
     font-weight: 800;
     margin-bottom: 25px;
     font-family: 'Montserrat', sans-serif;
@@ -4079,7 +4096,7 @@ i.fa.fa-quote-right.quote-right-circle {
 }
 
 .blogs-data-update {
-    height: 815px;
+    height: auto;
     border: 1px solid #efefef;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
